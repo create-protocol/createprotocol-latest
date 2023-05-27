@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-y: hidden;
+  background-color: black;
+}
+
+.orange-line {
+  width: 200px;
+  height: 2px;
+  background: linear-gradient(
+    270deg,
+    #0d0d0e 0%,
+    #ea6045 34.55%,
+    #ea6045 66.88%,
+    #0d1117 92.65%,
+    #0d0d0e 92.65%
+  );
+}
+
+.bg-gradient {
+  position: absolute;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(255, 162, 139, 0.2) 0%,
+    rgba(50, 15, 133, 0) 100%
+  );
+}
