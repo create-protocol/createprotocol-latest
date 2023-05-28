@@ -66,46 +66,62 @@ const Backers = () => {
     speed: 500,
     autoplay: true,
     autoplaySpeed: 3000,
-    slidesToShow: 2,
+    slidesToShow: 3,
     slidesToScroll: 1,
     arrows: false,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+    ],
   };
   return (
-    <div className="relative">
+    <div className="relative py-12 lg:py-20">
       <div className="mx-auto flex w-[90%] flex-col items-center gap-5 py-10 text-center">
-        <h2 className="text-4xl font-bold">Backers and Advisors</h2>
-        <div className="orange-line"></div>
-        <p className="text-sm text-gray-400">
+        <h2 className="text-4xl font-bold lg:text-5xl xl:text-6xl">
+          Backers and Advisors
+        </h2>
+        <div className="orange-line lg:w-[25rem]"></div>
+        <p className="text-sm text-gray-400 lg:text-base">
           Create Protocol&apos;s journey is propelled by influential industry
           champions and strategic visionaries.
         </p>
       </div>
-      <div className="flex flex-col items-center gap-5 py-10">
+      <div className="flex flex-col items-center gap-5 py-10 md:mx-auto md:w-[90%] lg:gap-8 lg:pb-16 xl:w-3/4">
         <div className="flex flex-wrap justify-center gap-8">
           {backers.map((item) => (
             <div
               key={item}
-              className="flex h-[8rem] items-center justify-center border border-gray-800 bg-[#0D0D0E] p-4"
+              className="flex h-[8rem] items-center justify-center border border-gray-800 bg-[#0D0D0E] p-4 lg:h-[10rem] lg:px-8"
             >
-              <Image src={item} alt="backer" width={120} height={120} />
+              <Image
+                src={item}
+                alt="backer"
+                width={120}
+                height={120}
+                className="w-[10rem]"
+              />
             </div>
           ))}
         </div>
       </div>
-      <div className="my-5 w-screen">
+      <div className="my-5 w-screen lg:hidden">
         <Slider {...settings}>
           {advisors.map((item) => (
             <div key={item.name} className="flex flex-col items-center px-3">
               <div
                 key={item.name}
-                className="flex h-[20rem] flex-col items-center justify-center border border-gray-800 bg-[#0D0D0E] py-3 text-center"
+                className="flex h-[20rem] flex-col items-center justify-start border border-gray-800 bg-[#0D0D0E] py-3 text-center"
               >
                 <Image
                   src={item.image}
                   alt="backer"
                   width={120}
                   height={120}
-                  className="w-full object-cover"
+                  className="h-3/5 w-full object-cover"
                 />
                 <div className="mt-4 flex flex-col items-center gap-2 px-4">
                   <p className="text-lg font-semibold">{item.name}</p>
@@ -115,6 +131,26 @@ const Backers = () => {
             </div>
           ))}
         </Slider>
+      </div>
+      <div className="mx-auto hidden w-[90%] grid-cols-4 gap-6 lg:grid xl:grid-cols-5 xl:gap-8 2xl:w-3/4">
+        {advisors.map((item) => (
+          <div
+            key={item.name}
+            className="flex h-[20rem] flex-col items-center justify-start rounded-xl border border-gray-800 bg-[#0D0D0E] py-3 text-center"
+          >
+            <Image
+              src={item.image}
+              alt="backer"
+              width={120}
+              height={120}
+              className="h-3/5 w-full object-cover"
+            />
+            <div className="mt-4 flex flex-col items-center gap-2 px-4">
+              <p className="text-lg font-semibold">{item.name}</p>
+              <p className="text-sm text-gray-400">{item.about}</p>
+            </div>
+          </div>
+        ))}
       </div>
     </div>
   );

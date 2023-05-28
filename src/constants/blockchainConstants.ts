@@ -21,7 +21,7 @@ export const dapps = [
   "/dapps/metaluxe.svg",
   "/dapps/ouch.svg",
   "/dapps/unite.svg",
-  "/dapps/welln3ss.svg",
+  "/dapps/Welln3ss.svg",
   "/dapps/yogaverse.svg",
 ];
 

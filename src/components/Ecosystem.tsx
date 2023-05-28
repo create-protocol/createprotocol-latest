@@ -12,22 +12,34 @@ const Ecosystem = () => {
     infinite: true,
     speed: 500,
     autoplay: true,
-    autoplaySpeed: 3000,
-    slidesToShow: 2,
+    autoplaySpeed: 1000,
+    slidesToShow: 4,
     slidesToScroll: 1,
     arrows: false,
+    pauseOnHover: true,
+    responsive: [
+      {
+        breakpoint: 640,
+        settings: {
+          slidesToShow: 2,
+          autoplaySpeed: 3000,
+        },
+      },
+    ],
   };
   return (
-    <div className="relative">
-      <div className="flex flex-col items-center gap-3 py-10">
-        <h2 className="text-4xl font-bold">Our Ecosystem</h2>
-        <div className="orange-line"></div>
-        <p className="text-sm text-gray-400">
+    <div className="relative py-12 lg:py-20">
+      <div className="flex flex-col items-center gap-3 py-10 sm:gap-5">
+        <h2 className="text-4xl font-bold lg:text-5xl xl:text-6xl">
+          Our Ecosystem
+        </h2>
+        <div className="orange-line lg:w-[25rem]"></div>
+        <p className="text-sm text-gray-400 lg:text-base">
           Uniting for a Thriving Ecosystem
         </p>
         <div className="py-6">
           <div className="flex flex-col items-center gap-3">
-            <h2 className="text-2xl font-semibold">
+            <h2 className="text-2xl font-semibold lg:text-3xl">
               Blockchain We Are Live On
             </h2>
             <div className="orange-line"></div>
@@ -47,7 +59,9 @@ const Ecosystem = () => {
         </div>
         <div className="py-6">
           <div className="flex flex-col items-center gap-3">
-            <h2 className="text-2xl font-semibold">dApps on Create Protocol</h2>
+            <h2 className="text-2xl font-semibold lg:text-3xl">
+              dApps on Create Protocol
+            </h2>
             <div className="orange-line"></div>
           </div>
           <div className="my-5 w-screen">
@@ -65,7 +79,7 @@ const Ecosystem = () => {
         </div>
         <div className="py-6">
           <div className="flex flex-col items-center gap-3">
-            <h2 className="text-2xl font-semibold">Partners</h2>
+            <h2 className="text-2xl font-semibold lg:text-3xl">Partners</h2>
             <div className="orange-line"></div>
           </div>
           <div className="my-5 w-screen">

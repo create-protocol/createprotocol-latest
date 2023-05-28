@@ -1,9 +1,11 @@
 const StayTuned = () => {
   return (
     <div className="relative">
-      <div className="mx-auto flex w-[90%] flex-col items-center gap-5 py-10 text-center">
-        <h2 className="text-4xl font-bold">Stay Tuned Stay Updated</h2>
-        <div className="orange-line"></div>
+      <div className="mx-auto flex w-[90%] flex-col items-center gap-5 py-10 text-center md:py-20">
+        <h2 className="text-4xl font-bold md:text-5xl">
+          Stay Tuned Stay Updated
+        </h2>
+        <div className="orange-line md:w-[25rem]"></div>
         <p className="text-sm text-gray-400">
           Connecting You to the Latest Insights and Trends
         </p>

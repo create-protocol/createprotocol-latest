@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Slider from "react-slick";
+import EventsBigLayout from "./EventsBigLayout";
 
 const GlobalStage = () => {
   const settings = {
@@ -47,24 +48,28 @@ const GlobalStage = () => {
     },
   ];
   return (
-    <div className="relative">
+    <div className="relative py-12 lg:py-20">
       <div className="flex flex-col items-center gap-5 py-10">
-        <h2 className="text-center text-4xl font-bold">
+        <h2 className="text-center text-4xl font-bold lg:text-5xl xl:text-6xl">
           Create Protocol at Global Stage
         </h2>
-        <div className="orange-line"></div>
+        <div className="orange-line lg:w-[25rem]"></div>
+        <p className="text-sm text-gray-400 lg:text-base">
+          With our IRL event IP Creatorism we have gained millions of eyeballs
+          globally
+        </p>
       </div>
-      <div className="my-6 w-screen">
+      <div className="my-6 w-screen lg:hidden">
         <Slider {...settings}>
           {eventData1.map((item) => (
-            <div key={item.title} className="px-5">
-              <div className="flex h-[32rem] flex-col items-center gap-6 rounded-3xl border border-gray-800 bg-[#0D0D0E] p-6 py-6 text-center">
+            <div key={item.title} className="px-5 sm:px-20 md:px-32">
+              <div className="flex h-full flex-col items-center gap-6 rounded-3xl border border-gray-800 bg-[#0D0D0E] p-6 py-6 text-center">
                 <Image
                   src={item.image}
                   alt="logo"
                   width={100}
                   height={100}
-                  className="w-full rounded-3xl object-cover"
+                  className="h-3/4 w-full rounded-3xl object-cover sm:h-1/2"
                 />
                 <h2 className="text-3xl font-bold">{item.title}</h2>
                 <p className="text-sm text-gray-400">{item.description}</p>
@@ -73,17 +78,17 @@ const GlobalStage = () => {
           ))}
         </Slider>
       </div>
-      <div className="my-6 w-screen">
+      <div className="my-6 w-screen lg:hidden">
         <Slider {...settings}>
           {eventData2.map((item) => (
-            <div key={item.title} className="px-5">
-              <div className="flex h-[32rem] flex-col items-center gap-6 rounded-3xl border border-gray-800 bg-[#0D0D0E] p-6 py-6 text-center">
+            <div key={item.title} className="px-5 sm:px-20 md:px-32">
+              <div className="flex h-full flex-col items-center gap-6 rounded-3xl border border-gray-800 bg-[#0D0D0E] p-6 py-6 text-center">
                 <Image
                   src={item.image}
                   alt="logo"
                   width={100}
                   height={100}
-                  className="w-full rounded-3xl object-cover"
+                  className="h-3/4 w-full rounded-3xl object-cover sm:h-1/2"
                 />
                 <h2 className="text-3xl font-bold">{item.title}</h2>
                 <p className="text-sm text-gray-400">{item.description}</p>
@@ -91,6 +96,9 @@ const GlobalStage = () => {
             </div>
           ))}
         </Slider>
+      </div>
+      <div className="mx-auto hidden w-[90%] lg:block 2xl:w-3/4">
+        <EventsBigLayout />
       </div>
     </div>
   );
