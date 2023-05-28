@@ -48,7 +48,7 @@ const GlobalStage = () => {
     },
   ];
   return (
-    <div className="relative py-12 lg:py-20">
+    <div className="relative py-6 lg:py-20">
       <div className="flex flex-col items-center gap-5 py-10">
         <h2 className="text-center text-4xl font-bold lg:text-5xl xl:text-6xl">
           Create Protocol at Global Stage
@@ -100,6 +100,8 @@ const GlobalStage = () => {
       <div className="mx-auto hidden w-[90%] lg:block 2xl:w-3/4">
         <EventsBigLayout />
       </div>
+      <div className="bg-gradient left-1/2 top-1/2 h-[30rem] w-[30rem] -translate-x-1/2 -translate-y-1/2 lg:h-[40rem] lg:w-[40rem]"></div>
+      <div className="bg-gradient -top-32 left-1/2 h-[30rem] w-[30rem] -translate-x-1/2"></div>
     </div>
   );
 };

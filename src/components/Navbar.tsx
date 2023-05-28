@@ -12,10 +12,19 @@ const Navbar = () => {
         className="md:hidden"
       />
       <div className="hidden gap-8 md:flex">
-        <button className="text-sm text-white">Blogs</button>
-        <button className="rounded-full bg-white px-4 py-1.5 text-sm font-semibold text-black">
-          Whitepaper
-        </button>
+        <a href="https://blog.createprotocol.org/" target="_blank">
+          <button className="text-sm text-white underline-offset-2 hover:underline">
+            Blogs
+          </button>
+        </a>
+        <a
+          href="https://create-protocol.gitbook.io/create-protocol-whitepaper/"
+          target="_blank"
+        >
+          <button className="rounded-full bg-white px-4 py-1.5 text-sm font-semibold text-black">
+            Whitepaper
+          </button>
+        </a>
       </div>
     </div>
   );

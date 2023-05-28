@@ -39,9 +39,11 @@ const Product = () => {
             their new / existing creations to multiple dapps (marketplaces,
             nft-finance, games, metaverses) and maximise monetization and reach.
           </p>
-          <button className="rounded-full border border-white px-8 py-2 text-xs text-white">
-            Launch App
-          </button>
+          <a target="_blank" href="https://app.creatorconsole.com/">
+            <button className="rounded-full border border-white px-8 py-2 text-xs text-white hover:cursor-pointer">
+              Launch App
+            </button>
+          </a>
         </div>
         <div className="hidden lg:block lg:w-2/5">
           <Image
@@ -79,6 +81,8 @@ const Product = () => {
           </p>
         </div>
       </div>
+      <div className="bg-gradient bottom-10 left-1/2 h-[30rem] w-[30rem] -translate-x-1/2 lg:-right-20 lg:left-auto lg:top-56 lg:h-[50rem] lg:w-[50rem] lg:translate-x-0"></div>
+      <div className="bg-gradient -top-32 left-1/2 h-[30rem] w-[30rem] -translate-x-1/2 lg:-left-56 lg:h-[50rem] lg:w-[50rem] lg:translate-x-0"></div>
     </div>
   );
 };

@@ -16,7 +16,8 @@ const Ecosystem = () => {
     slidesToShow: 4,
     slidesToScroll: 1,
     arrows: false,
-    pauseOnHover: true,
+    pauseOnHover: false,
+    slickPlay: true,
     responsive: [
       {
         breakpoint: 640,
@@ -28,7 +29,7 @@ const Ecosystem = () => {
     ],
   };
   return (
-    <div className="relative py-12 lg:py-20">
+    <div className="relative py-12">
       <div className="flex flex-col items-center gap-3 py-10 sm:gap-5">
         <h2 className="text-4xl font-bold lg:text-5xl xl:text-6xl">
           Our Ecosystem
@@ -44,7 +45,7 @@ const Ecosystem = () => {
             </h2>
             <div className="orange-line"></div>
           </div>
-          <div className="my-5 w-screen">
+          <div className="my-5 w-screen lg:mx-auto lg:w-[80vw]">
             <Slider {...settings}>
               {blockchainConstants.map((item) => (
                 <div
@@ -64,7 +65,7 @@ const Ecosystem = () => {
             </h2>
             <div className="orange-line"></div>
           </div>
-          <div className="my-5 w-screen">
+          <div className="my-5 w-screen lg:mx-auto lg:w-[80vw]">
             <Slider {...settings}>
               {dapps.map((item) => (
                 <div
@@ -82,7 +83,7 @@ const Ecosystem = () => {
             <h2 className="text-2xl font-semibold lg:text-3xl">Partners</h2>
             <div className="orange-line"></div>
           </div>
-          <div className="my-5 w-screen">
+          <div className="my-5 w-screen lg:mx-auto lg:w-[80vw]">
             <Slider {...settings}>
               {partners.map((item) => (
                 <div
@@ -96,6 +97,7 @@ const Ecosystem = () => {
           </div>
         </div>
       </div>
+      <div className="bg-gradient left-1/2 top-1/2 h-[30rem] w-[30rem] -translate-x-1/2 -translate-y-1/2 lg:h-[40rem] lg:w-[40rem]"></div>
     </div>
   );
 };

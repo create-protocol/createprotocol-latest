@@ -54,7 +54,7 @@ const SetsUsApart = () => {
           </div>
         ))}
       </div>
-      <div className="bg-gradient top-2 h-[10rem] w-[20rem]"></div>
+      <div className="bg-gradient -top-32 left-1/2 h-[30rem] w-[30rem] -translate-x-1/2 lg:hidden"></div>
     </div>
   );
 };

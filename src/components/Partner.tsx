@@ -39,7 +39,7 @@ const Partner = () => {
               </div>
             ))}
           </div>
-          <div className="hidden text-end lg:flex lg:w-2/5 lg:flex-col lg:gap-6">
+          <div className="relative hidden text-end lg:flex lg:w-2/5 lg:flex-col lg:gap-6">
             <p className="text-4xl font-bold">
               “Partner with us to ignite innovation, amplify your impact, and
               shape a limitless future”
@@ -49,9 +49,12 @@ const Partner = () => {
               have an ambitious project in mind, join forces with our platform
               to pave the way for extraordinary achievements
             </p>
+            {/* <div className="orange-line absolute right-0 h-0 rotate-90 lg:w-full"></div> */}
           </div>
         </div>
       </div>
+      <div className="bg-gradient bottom-10 left-1/2 h-[30rem] w-[30rem] -translate-x-1/2 lg:-right-20 lg:left-auto lg:h-[50rem] lg:w-[50rem] lg:translate-x-0 "></div>
+      <div className="bg-gradient -top-32 left-1/2 h-[30rem] w-[30rem] -translate-x-1/2 lg:-top-64 lg:h-[40rem] lg:w-[40rem]"></div>
     </div>
   );
 };
