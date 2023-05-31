@@ -16,8 +16,8 @@ const Partner = () => {
     },
   ];
   return (
-    <div className="relative">
-      <div className="flex flex-col items-center gap-5 py-10 xl:gap-3">
+    <div className="relative py-6 lg:py-20">
+      <div className="flex flex-col items-center gap-5 py-4 xl:gap-3">
         <h2 className="text-center text-4xl font-bold sm:text-5xl xl:text-6xl">
           Partner With Us
         </h2>

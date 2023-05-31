@@ -55,7 +55,7 @@ const Backers = () => {
       about: "Founder Aeon Foundry, Harvard & MIT Alumnus",
     },
     {
-      image: "/advisors/advisor1.svg",
+      image: "/advisors/advisor10.svg",
       name: "Lalit Mangal",
       about: "CEO Airmeet",
     },
@@ -80,7 +80,7 @@ const Backers = () => {
   };
   return (
     <div className="relative py-12 lg:py-20">
-      <div className="mx-auto flex w-[90%] flex-col items-center gap-5 py-10 text-center">
+      <div className="mx-auto flex w-[90%] flex-col items-center gap-5 py-4 text-center">
         <h2 className="text-4xl font-bold lg:text-5xl xl:text-6xl">
           Backers and Advisors
         </h2>

@@ -16,8 +16,8 @@ const Product = () => {
     },
   ];
   return (
-    <div className="relative">
-      <div className="lg:flex lg:items-center lg:justify-center lg:gap-10 lg:py-10 xl:mx-auto xl:w-[90%]">
+    <div className="relative py-6 lg:py-20">
+      <div className="py-4 lg:flex lg:items-center lg:justify-center lg:gap-10 xl:mx-auto xl:w-[90%]">
         <div className="flex flex-col items-center gap-3 py-10 sm:gap-5 lg:w-2/5 lg:items-start xl:gap-8">
           <div className="flex flex-col items-center gap-3 lg:w-full lg:items-start">
             <h2 className="text-xl text-[#FFA28B]">Flagship Product</h2>

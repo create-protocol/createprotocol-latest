@@ -1,7 +1,7 @@
 const StayTuned = () => {
   return (
-    <div className="relative">
-      <div className="mx-auto flex w-[90%] flex-col items-center gap-5 py-10 text-center md:py-20">
+    <div className="relative py-6 lg:py-20">
+      <div className="mx-auto flex w-[90%] flex-col items-center gap-5 py-4 text-center md:py-20">
         <h2 className="text-4xl font-bold md:text-5xl lg:text-6xl">
           Stay Tuned Stay Updated
         </h2>

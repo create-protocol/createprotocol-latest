@@ -30,7 +30,7 @@ const Ecosystem = () => {
   };
   return (
     <div className="relative py-12">
-      <div className="flex flex-col items-center gap-3 py-10 sm:gap-5">
+      <div className="flex flex-col items-center gap-3 py-4 sm:gap-5">
         <h2 className="text-4xl font-bold lg:text-5xl xl:text-6xl">
           Our Ecosystem
         </h2>

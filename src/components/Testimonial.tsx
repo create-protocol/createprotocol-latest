@@ -4,19 +4,19 @@ import Slider from "react-slick";
 const Testimonial = () => {
   const testimonialsData1 = [
     {
-      image: "/testimonial/6.svg",
+      image: "/testimonial/sandeep.svg",
       name: "Sandeep Nailwal",
       title: "Founder, Polygon",
       text: "Whoever is working with the team and creating DApps, wish you all the best. Keep building awesome applications and Dapps.",
     },
     {
-      image: "/testimonial/2.svg",
+      image: "/testimonial/illia.svg",
       name: "Illia Polosukhin",
       title: "Founder, Near Protocol",
       text: "The team is doing a great job. They have full support from our ecosystem",
     },
     {
-      image: "/testimonial/4.svg",
+      image: "/testimonial/raj.svg",
       name: "Raj A Kapoor",
       title: "Founder, India Blockchain Alliance",
       text: "Create Protocol’s offering for Creators is truly going to revolutionize the Web3 Creator Economy",
@@ -24,19 +24,19 @@ const Testimonial = () => {
   ];
   const testimonialsData2 = [
     {
-      image: "/testimonial/3.svg",
+      image: "/testimonial/joyce.svg",
       name: "Joyce Chow",
       title: "Digital Marketer",
       text: "Create Protocol elevates our creative process with user-friendly NFT minting and distribution. The future of digital entertainment",
     },
     {
-      image: "/testimonial/5.svg",
+      image: "/testimonial/bharat.svg",
       name: "Bharat Thakur",
       title: "Royal Artist",
       text: "Create Protocol empowers artists like me to effortlessly showcase and monetize my artwork as valuable NFTs. A game-changer",
     },
     {
-      image: "/testimonial/1.svg",
+      image: "/testimonial/sunjeh.svg",
       name: "Sunjeh Raja",
       title: "Founder & CEO - ICCA Dubai, Foodverse",
       text: "The Create Protocol team's intellectual prowess has made the collaborative journey of building Foodverse an enriching and highly rewarding experience",
@@ -54,7 +54,7 @@ const Testimonial = () => {
   };
   return (
     <div className="relative py-12 lg:py-20">
-      <div className="flex flex-col items-center gap-5 py-10 lg:gap-3">
+      <div className="flex flex-col items-center gap-5 py-8 lg:gap-3">
         <h2 className="text-center text-4xl font-bold lg:text-5xl xl:text-6xl">
           Testimonial
         </h2>
