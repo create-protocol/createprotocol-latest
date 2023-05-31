@@ -73,7 +73,7 @@ const EventsBigLayout = () => {
               className="h-full w-full object-cover"
             />
             <Image
-              src="/eventsBig/nyc4.png"
+              src="/eventsBig/nyc3.jpg"
               alt="nyc"
               width={100}
               height={100}
