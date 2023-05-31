@@ -16,7 +16,7 @@ const Banner = () => {
           Future of Creation
         </h2>
         <p className="px-5 text-xl">
-          The next gen AI based decentralized NFT Infrastructure.
+          The next gen AI Powered Web 3.0 Infra for dApps
         </p>
         <div className="orange-line lg:w-[25rem]"></div>
         <a

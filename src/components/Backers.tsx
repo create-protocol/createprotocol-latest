@@ -17,7 +17,7 @@ const Backers = () => {
     {
       image: "/advisors/advisor4.svg",
       name: "Min Kim",
-      about: "International Growth Lead, Canva",
+      about: "Hack VC, Ex-CMO - Hedera, Polygon",
     },
     {
       image: "/advisors/advisor8.svg",
@@ -42,7 +42,7 @@ const Backers = () => {
     {
       image: "/advisors/advisor2.svg",
       name: "Abhimanyu Lamba",
-      about: "Hack VC, Ex-CMO - Hedera, Polygon",
+      about: "International Growth Lead, Canva",
     },
     {
       image: "/advisors/advisor6.svg",

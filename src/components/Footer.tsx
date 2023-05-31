@@ -47,9 +47,9 @@ const Footer = () => {
               className="hover:cursor-pointer lg:w-[16rem]"
             />
             <p className="lg:w-3/4 lg:text-sm">
-              Create Protocol consists is a suite of contracts, SDKs, Packages,
-              APIs, Plugins supporting multiple blockchains to power Dapps & Use
-              cases.
+              The next gen AI powered Web 3.0 Infra. Create Protocol consists is
+              a suite of contracts, SDKs, Packages, APIs, Plugins supporting
+              multiple blockchains to power Dapps & Use cases.
             </p>
           </div>
           <div className="flex flex-col items-center gap-3 lg:w-[30%] lg:items-start">
