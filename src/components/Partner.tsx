@@ -3,16 +3,19 @@ const Partner = () => {
     {
       title: "Join The Dev Community",
       description: "Collaborate and evolve in our developer community.",
+      link: "https://docs.google.com/forms/d/1dkxtKw4MTsmh1JbUhYgYf8DPPoLcdbtnVdodJ7D8_I4/viewform?edit_requested=true",
     },
     {
       title: "Explore Product Partnership",
       description:
         "Connect us if you have something that adds value to our ecosystem",
+      link: "https://docs.google.com/forms/d/1mTUM4YojwWfUUTH6_u71jhjOhAU70fSBNpnmE907z5U/viewform?edit_requested=true",
     },
     {
       title: "Feel Any Other Synergies?",
       description:
         "Share your ideas, let's create something extraordinary together.",
+      link: "https://docs.google.com/forms/d/1Fw4p5h0-lWz6_V01CcjtCaXAFfJMfAKbF1rjOB7FIzw/viewform?edit_requested=true",
     },
   ];
   return (
@@ -32,9 +35,11 @@ const Partner = () => {
                 key={item.title}
                 className="flex w-full flex-col items-center gap-3 border border-gray-800 bg-[#0D0D0E] p-8 text-center lg:items-start lg:text-start"
               >
-                <h2 className="text-2xl font-semibold lg:underline">
-                  {item.title}
-                </h2>
+                <a href={item.link} target="_blank">
+                  <h2 className="text-2xl font-semibold hover:cursor-pointer hover:underline">
+                    {item.title}
+                  </h2>
+                </a>
                 <p className="text-sm text-gray-400">{item.description}</p>
               </div>
             ))}

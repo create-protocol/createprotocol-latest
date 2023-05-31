@@ -49,8 +49,8 @@ const GlobalStage = () => {
   ];
   return (
     <div className="relative py-6 lg:py-20">
-      <div className="flex flex-col items-center gap-5 py-4">
-        <h2 className="text-center text-4xl font-bold lg:text-5xl xl:text-6xl">
+      <div className="flex flex-col items-center gap-5 py-4 text-center">
+        <h2 className="text-4xl font-bold lg:text-5xl xl:text-6xl">
           Create Protocol at Global Stage
         </h2>
         <div className="orange-line lg:w-[25rem]"></div>
