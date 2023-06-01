@@ -107,7 +107,7 @@ const Footer = () => {
       <div className="pb-6">
         <div className="mb-6 h-[1px] w-screen bg-white"></div>
         <p className="text-center text-sm">
-          Copyright ©2023 Create Protocol. All rights reserved.
+          Copyright ©2022 Create Protocol. All rights reserved.
         </p>
       </div>
     </>
