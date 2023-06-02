@@ -50,7 +50,7 @@ const Backers = () => {
       about: "CGO 5ire",
     },
     {
-      image: "/advisors/advisor9.jpeg",
+      image: "/advisors/peter.png",
       name: "Peter Dolch",
       about: "Founder Aeon Foundry, Harvard & MIT Alumnus",
     },
@@ -95,14 +95,16 @@ const Backers = () => {
           {backers.map((item) => (
             <div
               key={item}
-              className="flex h-[8rem] items-center justify-center border border-gray-800 bg-[#0D0D0E] p-4 lg:h-[10rem] lg:px-8"
+              className="flex h-[8rem] items-center justify-center rounded-lg border border-gray-800 bg-[#0D0D0E] p-4 lg:h-[10rem] lg:px-8"
             >
               <Image
                 src={item}
                 alt="backer"
                 width={120}
                 height={120}
-                className="w-[10rem]"
+                className={`w-[10rem] ${
+                  item === "/backers/cogitent.svg" && "h-[6rem]"
+                }`}
               />
             </div>
           ))}
@@ -121,7 +123,7 @@ const Backers = () => {
                   alt="backer"
                   width={120}
                   height={120}
-                  className="h-3/5 w-full object-cover"
+                  className="h-3/5 w-full object-contain"
                 />
                 <div className="mt-4 flex flex-col items-center gap-2 px-4">
                   <p className="text-lg font-semibold">{item.name}</p>
@@ -143,7 +145,7 @@ const Backers = () => {
               alt="backer"
               width={120}
               height={120}
-              className="h-3/5 w-full object-cover"
+              className="h-3/5 w-full object-contain"
             />
             <div className="mt-4 flex flex-col items-center gap-2 px-4">
               <p className="text-lg font-semibold">{item.name}</p>

@@ -12,20 +12,20 @@ const EventsBigLayout = () => {
             height={100}
             className="row-span-2 h-full w-full"
           />
-          <div className="flex gap-4">
+          <div className="flex max-w-[6rem] gap-4 xl:max-w-[7rem] 2xl:max-w-full">
             <Image
               src="/eventsBig/consensus2.png"
               alt="consensus"
               width={100}
               height={100}
-              className="h-full w-full"
+              className="h-full w-full object-cover"
             />
             <Image
               src="/eventsBig/consensus3.png"
               alt="consensus"
               width={100}
               height={100}
-              className="h-full w-full"
+              className="h-full w-full object-cover"
             />
           </div>
           <Image

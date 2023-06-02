@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Developers from "./Developers";
 
 const Product = () => {
   const cardData = [
@@ -21,7 +22,9 @@ const Product = () => {
         <div className="flex flex-col items-center gap-3 py-10 sm:gap-5 lg:w-2/5 lg:items-start xl:gap-8">
           <div className="flex flex-col items-center gap-3 lg:w-full lg:items-start">
             <h2 className="text-xl text-[#FFA28B]">Flagship Product</h2>
-            <h2 className="text-3xl font-bold md:text-5xl">Creator Console</h2>
+            <h2 className="text-3xl font-bold md:text-5xl lg:text-6xl">
+              Creator Console
+            </h2>
             <div className="orange-line lg:w-[18rem]"></div>
           </div>
           <Image
@@ -31,7 +34,7 @@ const Product = () => {
             height={100}
             className="mx-auto w-3/4 sm:w-1/2 md:w-1/3 lg:hidden"
           />
-          <p className="mx-auto w-3/4 md:text-lg lg:w-full">
+          <p className="mx-auto w-3/4 md:text-lg lg:mx-0 lg:w-4/5 lg:text-xl">
             Master Dashboard powered by decentralised AI for Creators and Brands
             who wants to gain competitive edge over others through the most
             advanced & efficient NFT features. An average creator on Creator
@@ -39,21 +42,38 @@ const Product = () => {
             compared to other platforms in the market.
           </p>
           <a target="_blank" href="https://app.creatorconsole.com/">
-            <button className="rounded-full border border-white px-8 py-2 text-xs text-white hover:cursor-pointer">
+            <button className="rounded-full border border-white px-8 py-3 text-sm text-white hover:cursor-pointer">
               Launch App
             </button>
           </a>
         </div>
-        <div className="hidden lg:block lg:w-2/5">
-          <Image
-            src="/laptop-mobile-image.png"
+        <div className="hidden scale-75 flex-col gap-3 lg:flex lg:w-2/5">
+          <img
+            src="/laptop/laptop1.png"
             alt="product"
             width={100}
             height={100}
-            className="mx-auto lg:w-3/4"
+            className="w-full"
           />
+          <div className="flex gap-3">
+            <img
+              src="/laptop/laptop2.png"
+              alt="product"
+              width={100}
+              height={100}
+              className="w-1/2"
+            />
+            <img
+              src="/laptop/laptop3.png"
+              alt="product"
+              width={100}
+              height={100}
+              className="w-1/2"
+            />
+          </div>
         </div>
       </div>
+      <Developers />
       <div className="my-6 md:my-12 lg:mx-auto lg:flex lg:w-[90%] lg:items-center lg:justify-between lg:gap-10 xl:w-3/4">
         <div className="mx-auto flex w-3/4 flex-col items-center gap-5 sm:w-1/2 lg:mx-0 lg:w-2/5">
           {cardData.map((item, index) => (
@@ -61,20 +81,22 @@ const Product = () => {
               key={index}
               className="flex w-full flex-col items-center gap-2 border border-[#212123] bg-[#0D0D0E] py-4"
             >
-              <h3 className="text-5xl font-black lg:text-4xl">{item.num}</h3>
+              <h3 className="text-5xl font-black lg:text-4xl xl:text-5xl">
+                {item.num}
+              </h3>
               <p className="text-xl font-bold text-gray-400">{item.text}</p>
             </div>
           ))}
         </div>
-        <div className="hidden text-end lg:flex lg:w-2/5 lg:flex-col lg:gap-6">
-          <p className="text-4xl font-bold">
+        <div className="hidden text-end lg:flex lg:w-2/5 lg:flex-col lg:gap-2">
+          <p className="text-4xl font-bold lg:text-4xl xl:text-5xl">
             Join a thriving global community of talented creators, spanning
             across multiple countries.
           </p>
-          <p className="ml-auto mr-0 w-3/4 text-xs text-[#666666]">
+          <p className="ml-auto mr-0 w-3/4 text-[#666666]">
             Be part of a diverse and supportive community of creators
           </p>
-          <p className="ml-auto mr-0 w-3/4 text-xs text-[#666666]">
+          <p className="ml-auto mr-0 w-3/4 text-[#666666]">
             Connect with inspiring individuals and grow together in our
             community
           </p>

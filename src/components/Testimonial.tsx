@@ -133,7 +133,7 @@ const Testimonial = () => {
       <div className="mx-auto hidden w-[90%] grid-cols-2 gap-10 lg:grid xl:grid-cols-3">
         {[...testimonialsData1, ...testimonialsData2].map((item) => (
           <div key={item.name} className="flex flex-col items-center">
-            <div className="flex h-full flex-col items-center gap-2 border border-gray-800 bg-[#0D0D0E] p-5">
+            <div className="flex h-full flex-col items-center gap-2 rounded-lg border border-gray-800 bg-[#0D0D0E] p-5">
               <Image
                 src={item.image}
                 alt={item.name}
@@ -142,7 +142,7 @@ const Testimonial = () => {
               />
               <h2 className="text-2xl font-semibold">{item.name}</h2>
               <p className="text-sm">{item.title}</p>
-              <div className="relative mt-8 border-gray-800 bg-black p-5">
+              <div className="relative mt-8 h-full border-gray-800 bg-black p-5">
                 <p className="px-6 pt-4 text-center text-gray-400">
                   {item.text}
                 </p>

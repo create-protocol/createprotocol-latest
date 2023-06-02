@@ -13,7 +13,7 @@ const Ecosystem = () => {
     speed: 500,
     autoplay: true,
     autoplaySpeed: 1000,
-    slidesToShow: 4,
+    slidesToShow: 5,
     slidesToScroll: 1,
     arrows: false,
     pauseOnHover: false,
@@ -23,6 +23,13 @@ const Ecosystem = () => {
         breakpoint: 640,
         settings: {
           slidesToShow: 2,
+          autoplaySpeed: 3000,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 3,
           autoplaySpeed: 3000,
         },
       },

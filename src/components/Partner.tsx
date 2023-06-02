@@ -33,7 +33,7 @@ const Partner = () => {
             {cardData.map((item) => (
               <div
                 key={item.title}
-                className="flex w-full flex-col items-center gap-3 border border-gray-800 bg-[#0D0D0E] p-8 text-center lg:items-start lg:text-start"
+                className="flex w-full flex-col items-center gap-3 rounded-lg border border-gray-800 bg-[#0D0D0E] p-8 text-center lg:items-start lg:text-start"
               >
                 <a href={item.link} target="_blank">
                   <h2 className="text-2xl font-semibold hover:cursor-pointer hover:underline">
@@ -45,11 +45,11 @@ const Partner = () => {
             ))}
           </div>
           <div className="relative hidden text-end lg:flex lg:w-2/5 lg:flex-col lg:gap-6">
-            <p className="text-4xl font-bold">
+            <p className="text-5xl font-bold">
               “Partner with us to ignite innovation, amplify your impact, and
               shape a limitless future”
             </p>
-            <p className="ml-auto mr-0 w-3/4 text-xs text-gray-300">
+            <p className="ml-auto mr-0 w-3/4 text-gray-300">
               Whether you&apos;re a visionary creator, a skilled developer, or
               have an ambitious project in mind, join forces with our platform
               to pave the way for extraordinary achievements
