@@ -21,7 +21,7 @@ const Banner = () => {
           target="_blank"
           href="https://docs.google.com/forms/d/1cYRgLyKIcNozuZiCr7HdtnCQ97zeySLe9jk-SmDEWZI/viewform?edit_requested=true"
         >
-          <button className="rounded-full bg-white px-6 py-2.5 text-sm font-bold text-black lg:px-8 lg:py-3 lg:text-base">
+          <button className="bg-button rounded-full px-6 py-2.5 text-sm font-bold text-black lg:px-8 lg:py-3 lg:text-base xl:px-10 xl:text-lg">
             Build On Create Protocol
           </button>
         </a>

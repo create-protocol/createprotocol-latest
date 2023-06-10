@@ -36,3 +36,7 @@ body {
   z-index: -1;
   filter: blur(60px);
 }
+
+.bg-button {
+  background: linear-gradient(180deg, #ffffff 0%, #b3b3b8 100%);
+}
