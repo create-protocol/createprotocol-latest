@@ -1,12 +1,12 @@
 const StayTuned = () => {
   return (
-    <div className="relative py-6 lg:py-20">
-      <div className="mx-auto flex w-[90%] flex-col items-center gap-5 py-4 text-center md:py-20">
+    <div className="relative py-6 lg:py-10 lg:pb-16">
+      <div className="mx-auto flex w-[90%] flex-col items-center gap-5 text-center">
         <h2 className="text-4xl font-bold md:text-5xl lg:text-6xl">
           Stay Tuned Stay Updated
         </h2>
         <div className="orange-line md:w-[25rem]"></div>
-        <p className="text-sm text-gray-400">
+        <p className="text-sm text-gray-300 md:text-lg md:font-semibold lg:text-xl">
           Connecting You to the Latest Insights and Trends
         </p>
         <div className="my-4 flex items-center justify-center">

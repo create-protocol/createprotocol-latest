@@ -1,4 +1,4 @@
-const setsUsApartConstants = [
+export const setsUsApartConstants = [
   {
     image: "/create-to-earn.svg",
     title: "Create to Earn",
@@ -21,5 +21,3 @@ const setsUsApartConstants = [
     description: "Ensure your projects gets the intelligence of both worlds",
   },
 ];
-
-export default setsUsApartConstants;

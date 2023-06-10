@@ -1,39 +1,7 @@
+import { socialLinks } from "@/constants";
 import Image from "next/image";
 
 const Footer = () => {
-  const socialMedia = [
-    {
-      name: "twitter",
-      image: "/social_media/twitter.svg",
-      link: "https://twitter.com/CreateProtocol",
-    },
-    {
-      name: "telegram",
-      image: "/social_media/telegram.svg",
-      link: "https://t.me/CreateProtocolOfficial",
-    },
-    {
-      name: "youtube",
-      image: "/social_media/youtube.svg",
-      link: "https://www.youtube.com/channel/UCWAt7rkiZ5qTcYY6hx8yYiA",
-    },
-    {
-      name: "discord",
-      image: "/social_media/discord.svg",
-      link: "https://discord.com/invite/M2xcC2Cex5",
-    },
-    {
-      name: "instagram",
-      image: "/social_media/instagram.svg",
-      link: "https://www.instagram.com/create.protocol/",
-    },
-    {
-      name: "linkedin",
-      image: "/social_media/linkedin.svg",
-      link: "https://www.linkedin.com/company/create-protocol/",
-    },
-  ];
-
   return (
     <>
       <div className="relative w-full bg-[#0d0d0eb3] pb-6 pt-10 lg:pt-20">
@@ -69,11 +37,11 @@ const Footer = () => {
           <div className="flex flex-col items-center gap-6 lg:w-[30%] lg:items-start">
             <div className="flex flex-col items-center gap-3 lg:items-start">
               <h3 className="text-3xl font-semibold text-gray-400 lg:text-2xl">
-                Support
+                Reach Out
               </h3>
-              <a href="mailto:support@createprotocol.org">
+              <a href="mailto:info@createprotocol.org">
                 <p className="hover:cursor-pointer hover:underline">
-                  support@createprotocol.org
+                  info@createprotocol.org
                 </p>
               </a>
             </div>
@@ -82,7 +50,7 @@ const Footer = () => {
                 Social Media
               </h3>
               <div className="flex -space-x-4 lg:-ml-3 lg:-space-x-6">
-                {socialMedia.map((item, index) => (
+                {socialLinks.map((item, index) => (
                   <a
                     key={index}
                     href={item.link}

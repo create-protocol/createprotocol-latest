@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Developers from "./Developers";
+import OneEngine from "./OneEngine";
 
 const Product = () => {
   const cardData = [
@@ -34,12 +35,13 @@ const Product = () => {
             height={100}
             className="mx-auto w-3/4 sm:w-1/2 md:w-1/3 lg:hidden"
           />
-          <p className="mx-auto w-3/4 md:text-lg lg:mx-0 lg:w-4/5 lg:text-xl">
-            Master Dashboard powered by decentralised AI for Creators and Brands
-            who wants to gain competitive edge over others through the most
-            advanced & efficient NFT features. An average creator on Creator
-            Console saves more than 60% of time and gets 92% more returns
-            compared to other platforms in the market.
+          <p className="mx-auto w-3/4 text-justify md:text-lg lg:mx-0 lg:w-4/5 lg:text-xl">
+            A MASTER DASHBOARD under the Create Protocol Ecosystem, which is on
+            a mission to save a creator/creative asset owner&apos;s time and
+            money by simplifying deployment of powerful contracts owned by user
+            in a simple templatised way making it easy to manage and distribute
+            their new / existing creations to multiple dapps (marketplaces,
+            nft-finance, games, metaverses) and maximise monetization and reach.
           </p>
           <a target="_blank" href="https://app.creatorconsole.com/">
             <button className="rounded-full border border-white px-8 py-3 text-sm text-white hover:cursor-pointer">
@@ -47,8 +49,8 @@ const Product = () => {
             </button>
           </a>
         </div>
-        <div className="hidden scale-75 flex-col gap-3 lg:flex lg:w-2/5">
-          <img
+        <div className="hidden scale-75 flex-col gap-3 lg:flex lg:w-1/2">
+          <Image
             src="/laptop/laptop1.png"
             alt="product"
             width={100}
@@ -56,14 +58,14 @@ const Product = () => {
             className="w-full"
           />
           <div className="flex gap-3">
-            <img
+            <Image
               src="/laptop/laptop2.png"
               alt="product"
               width={100}
               height={100}
               className="w-1/2"
             />
-            <img
+            <Image
               src="/laptop/laptop3.png"
               alt="product"
               width={100}
@@ -74,12 +76,13 @@ const Product = () => {
         </div>
       </div>
       <Developers />
+      {/* <OneEngine /> */}
       <div className="my-6 md:my-12 lg:mx-auto lg:flex lg:w-[90%] lg:items-center lg:justify-between lg:gap-10 xl:w-3/4">
         <div className="mx-auto flex w-3/4 flex-col items-center gap-5 sm:w-1/2 lg:mx-0 lg:w-2/5">
           {cardData.map((item, index) => (
             <div
               key={index}
-              className="flex w-full flex-col items-center gap-2 border border-[#212123] bg-[#0D0D0E] py-4"
+              className="flex w-full flex-col items-center gap-2 rounded-lg border border-[#212123] bg-[#0D0D0E] py-4 lg:py-6"
             >
               <h3 className="text-5xl font-black lg:text-4xl xl:text-5xl">
                 {item.num}
@@ -93,10 +96,10 @@ const Product = () => {
             Join a thriving global community of talented creators, spanning
             across multiple countries.
           </p>
-          <p className="ml-auto mr-0 w-3/4 text-[#666666]">
+          <p className="ml-auto mr-0 w-3/4 text-gray-300 lg:text-lg lg:font-semibold">
             Be part of a diverse and supportive community of creators
           </p>
-          <p className="ml-auto mr-0 w-3/4 text-[#666666]">
+          <p className="ml-auto mr-0 w-3/4 text-gray-300 lg:text-lg lg:font-semibold">
             Connect with inspiring individuals and grow together in our
             community
           </p>

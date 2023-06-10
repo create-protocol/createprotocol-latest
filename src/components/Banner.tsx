@@ -1,16 +1,14 @@
-import Image from "next/image";
-
 const Banner = () => {
   return (
-    <div className="relative">
+    <div className="relative h-[80vh] md:h-screen">
       <img
         src="/background.jpg"
         alt="background"
         width={100}
         height={100}
-        className="h-[50vh] w-screen object-cover opacity-60 sm:h-[60vh] md:object-contain xl:h-[70vh]"
+        className="h-[80vh] w-screen object-cover opacity-60 md:h-screen"
       />
-      <div className="absolute left-1/2 top-1/2 flex w-[90%] -translate-x-1/2 -translate-y-1/2 flex-col items-center justify-center gap-6 text-center sm:gap-8">
+      <div className="absolute left-1/2 top-[40%] flex w-[90%] -translate-x-1/2 -translate-y-1/2 flex-col items-center justify-center gap-8 text-center sm:gap-8">
         <div className="orange-line lg:w-[25rem]"></div>
         <h2 className="text-4xl font-extrabold sm:text-5xl md:text-7xl xl:text-8xl">
           Future of Creation

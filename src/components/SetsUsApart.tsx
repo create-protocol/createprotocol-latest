@@ -1,4 +1,4 @@
-import setsUsApartConstants from "@/constants/setsUsApartConstants";
+import { setsUsApartConstants } from "@/constants";
 import Image from "next/image";
 import Slider from "react-slick";
 

@@ -4,7 +4,10 @@ import { useState } from "react";
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
   return (
-    <div className="flex justify-between px-4 py-4 md:px-8 md:py-6 xl:px-10">
+    <div
+      className="left-1/2 flex -translate-x-1/2 justify-between px-4 py-4 md:absolute
+md:z-10 md:mt-5 md:w-[90%] md:rounded-md md:bg-[#161618] md:px-8 md:py-3 xl:px-10"
+    >
       <Image src="/create-full-logo.svg" alt="logo" width={200} height={100} />
       <Image
         src={navbarOpen ? "/close-icon.svg" : "/hamburger-icon.svg"}
@@ -30,7 +33,6 @@ const Navbar = () => {
         </a>
       </div>
       <div
-        // the navbar should stay hidden on top and then should slide down when the hamburger icon is clicked with a transition
         className={`${
           navbarOpen ? "translate-y-0" : "-translate-y-full"
         } fixed left-0 top-0 z-40 flex h-fit w-full flex-col items-center justify-center gap-8 bg-black bg-opacity-80 p-8 pt-20 transition-all duration-500 md:hidden`}

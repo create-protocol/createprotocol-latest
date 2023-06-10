@@ -1,8 +1,4 @@
-import {
-  blockchainConstants,
-  dapps,
-  partners,
-} from "@/constants/blockchainConstants";
+import { blockchainConstants, dapps, partners } from "@/constants";
 import Image from "next/image";
 import Slider from "react-slick";
 
@@ -42,7 +38,7 @@ const Ecosystem = () => {
           Our Ecosystem
         </h2>
         <div className="orange-line lg:w-[25rem]"></div>
-        <p className="text-sm text-gray-400 lg:text-base">
+        <p className="text-sm text-gray-300 md:text-lg md:font-semibold lg:text-xl">
           Uniting for a Thriving Ecosystem
         </p>
         <div className="py-6">
@@ -59,7 +55,13 @@ const Ecosystem = () => {
                   key={item}
                   className="flex h-[8rem] items-center justify-center p-4"
                 >
-                  <Image src={item} alt="backer" width={150} height={150} />
+                  <Image
+                    src={item}
+                    alt="backer"
+                    width={150}
+                    height={150}
+                    className="h-28 w-28 object-contain lg:h-36 lg:w-36"
+                  />
                 </div>
               ))}
             </Slider>
@@ -79,7 +81,13 @@ const Ecosystem = () => {
                   key={item}
                   className="flex h-[8rem] items-center justify-center p-4"
                 >
-                  <Image src={item} alt="backer" width={150} height={150} />
+                  <Image
+                    src={item}
+                    alt="backer"
+                    width={150}
+                    height={150}
+                    className="h-28 w-28 object-contain lg:h-36 lg:w-36"
+                  />
                 </div>
               ))}
             </Slider>
@@ -97,7 +105,13 @@ const Ecosystem = () => {
                   key={item}
                   className="flex h-[8rem] items-center justify-center p-4"
                 >
-                  <Image src={item} alt="backer" width={150} height={150} />
+                  <Image
+                    src={item}
+                    alt="backer"
+                    width={150}
+                    height={150}
+                    className="h-28 w-28 object-contain lg:h-36 lg:w-36"
+                  />
                 </div>
               ))}
             </Slider>

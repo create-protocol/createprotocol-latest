@@ -1,3 +1,4 @@
+import { eventData1, eventData2 } from "@/constants";
 import Image from "next/image";
 import Slider from "react-slick";
 import EventsBigLayout from "./EventsBigLayout";
@@ -13,40 +14,6 @@ const GlobalStage = () => {
     slidesToScroll: 1,
     arrows: false,
   };
-  const eventData1 = [
-    {
-      title: "NFT NYC'23",
-      description:
-        "Hosted 3 day grand event.  major eyeballs - NAkamigos community, beeple, michael terpin. hackathon, gallery, art shows we had them all",
-      image: "/event/nft_nyc.png",
-    },
-    {
-      title: "Art Basel Miami'22",
-      description:
-        "hosted 3 day grand event at one of the most celebrated  art event in the world",
-      image: "/event/art_basel.png",
-    },
-    {
-      title: "CanEx Summit Jamaica",
-      description:
-        "Sponsored Summit & launched Seed to weed nft in partnership with bob marley foundation and peter hendrix foundation ",
-      image: "/event/canex_summit.png",
-    },
-  ];
-  const eventData2 = [
-    {
-      title: "Foodverse at Dubai World Trade Centre",
-      description:
-        "Presented foodverse, our dapp built on console through interactive experience center in the heart of dubai",
-      image: "/event/foodverse.png",
-    },
-    {
-      title: "Consensus'2023",
-      description:
-        "hosted a mega event at create mansion, austin with 1000s of guests, hundreds of industry experts, and tons of learnings for everyone.",
-      image: "/event/consensus.png",
-    },
-  ];
   return (
     <div className="relative py-6 lg:py-20">
       <div className="flex flex-col items-center gap-5 py-8 text-center">
@@ -54,7 +21,7 @@ const GlobalStage = () => {
           Create Protocol at Global Stage
         </h2>
         <div className="orange-line lg:w-[25rem]"></div>
-        <p className="text-sm text-gray-400 lg:text-base">
+        <p className="text-sm text-gray-300 md:text-lg md:font-semibold lg:text-xl">
           With our IRL event IP Creatorism we have gained millions of eyeballs
           globally
         </p>
