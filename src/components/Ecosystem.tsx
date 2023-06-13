@@ -75,7 +75,7 @@ const Ecosystem = () => {
                       alt={item.split("/")[3]}
                       width={150}
                       height={150}
-                      className="h-28 w-28 object-contain lg:h-36 lg:w-36"
+                      className="h-full w-28 object-contain lg:w-36"
                     />
                   </div>
                 ))}
