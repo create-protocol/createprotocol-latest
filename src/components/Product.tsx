@@ -36,12 +36,11 @@ const Product = () => {
             className="mx-auto w-3/4 sm:w-1/2 md:w-1/3 lg:hidden"
           />
           <p className="mx-auto w-3/4 text-justify md:text-lg lg:mx-0 lg:w-4/5 lg:text-xl">
-            A MASTER DASHBOARD under the Create Protocol Ecosystem, which is on
-            a mission to save a creator/creative asset owner&apos;s time and
-            money by simplifying deployment of powerful contracts owned by user
-            in a simple templatised way making it easy to manage and distribute
-            their new / existing creations to multiple dapps (marketplaces,
-            nft-finance, games, metaverses) and maximise monetization and reach.
+            Master Dashboard powered by decentralised AI for Creators and Brands
+            who wants to gain competitive edge over others through the most
+            advanced & efficient NFT features. An average creator on Creator
+            Console saves more than 60% of time and gets 92% more returns
+            compared to other platforms in the market.
           </p>
           <a target="_blank" href="https://app.creatorconsole.com/">
             <button className="rounded-full border border-white px-8 py-3 text-sm text-white hover:cursor-pointer">
