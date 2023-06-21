@@ -69,7 +69,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="bg-gradient left-1/2 top-1/2 h-[22rem] w-[22rem] -translate-x-1/2 -translate-y-1/2 lg:-left-40 lg:top-0 lg:h-[50rem] lg:w-[50rem] lg:translate-x-0 lg:translate-y-0"></div>
+          <div className="bg-gradient left-1/2 top-1/2 h-[22rem] w-[22rem] -translate-x-1/2 -translate-y-1/2 md:z-10 lg:-left-40 lg:top-0 lg:h-[50rem] lg:w-[50rem] lg:translate-x-0 lg:translate-y-0"></div>
         </div>
       </div>
       <div className="pb-6">

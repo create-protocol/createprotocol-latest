@@ -18,12 +18,12 @@ const Product = () => {
     },
   ];
   return (
-    <div className="relative py-6 lg:py-20">
+    <div className="relative pb-6 lg:pb-20">
       <div className="py-4 lg:flex lg:items-center lg:justify-center lg:gap-10 xl:mx-auto xl:w-[90%]">
         <div className="flex flex-col items-center gap-3 py-10 sm:gap-5 lg:w-2/5 lg:items-start xl:gap-8">
           <div className="flex flex-col items-center gap-3 lg:w-full lg:items-start">
             <h2 className="text-xl text-[#FFA28B]">Flagship Product</h2>
-            <h2 className="text-3xl font-bold md:text-5xl lg:text-6xl">
+            <h2 className="text-3xl font-bold md:text-5xl lg:text-inherit 2xl:text-6xl">
               Creator Console
             </h2>
             <div className="orange-line lg:w-[18rem]"></div>
@@ -76,12 +76,12 @@ const Product = () => {
       </div>
       <Developers />
       {/* <OneEngine /> */}
-      <div className="my-6 md:my-12 lg:mx-auto lg:flex lg:w-[90%] lg:items-center lg:justify-between lg:gap-10 xl:w-3/4">
+      <div className="relative my-6 md:my-12 lg:mx-auto lg:flex lg:w-[90%] lg:items-center lg:justify-between lg:gap-10 xl:w-3/4">
         <div className="mx-auto flex w-3/4 flex-col items-center gap-5 sm:w-1/2 lg:mx-0 lg:w-2/5">
           {cardData.map((item, index) => (
             <div
               key={index}
-              className="flex w-full flex-col items-center gap-2 rounded-lg border border-[#212123] bg-[#0D0D0E] py-4 lg:py-6"
+              className="flex w-full flex-col items-center gap-2 rounded-lg border border-border-gray bg-[#0D0D0E] py-4 lg:py-6"
             >
               <h3 className="text-5xl font-black lg:text-4xl xl:text-5xl">
                 {item.num}
@@ -103,6 +103,8 @@ const Product = () => {
             community
           </p>
         </div>
+        <div className="bg-gradient bottom-10 left-1/2 h-[30rem] w-[30rem] -translate-x-1/2 lg:-right-[20rem] lg:left-auto lg:h-[50rem] lg:w-[50rem] lg:translate-x-0 "></div>
+        <div className="bg-gradient -top-32 left-1/2 h-[30rem] w-[30rem] -translate-x-1/2 lg:-left-[15rem] lg:h-[40rem] lg:w-[40rem] lg:translate-x-0"></div>
       </div>
       <div className="bg-gradient bottom-10 left-1/2 h-[30rem] w-[30rem] -translate-x-1/2 lg:-right-20 lg:left-auto lg:top-56 lg:h-[50rem] lg:w-[50rem] lg:translate-x-0"></div>
       <div className="bg-gradient -top-32 left-1/2 h-[30rem] w-[30rem] -translate-x-1/2 lg:-left-56 lg:h-[50rem] lg:w-[50rem] lg:translate-x-0"></div>

@@ -16,7 +16,7 @@ const Partner = () => {
             {partnerCardData.map((item) => (
               <div
                 key={item.title}
-                className="flex w-full flex-col items-center gap-3 rounded-lg border border-gray-800 bg-[#0D0D0E] p-8 text-center lg:items-start lg:text-start"
+                className="flex w-full flex-col items-center gap-3 rounded-lg border border-border-gray bg-[#0D0D0E] p-8 text-center lg:items-start lg:text-start"
               >
                 <a href={item.link} target="_blank">
                   <h2 className="text-2xl font-semibold hover:cursor-pointer hover:underline">

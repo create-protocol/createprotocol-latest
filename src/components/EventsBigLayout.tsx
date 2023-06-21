@@ -37,7 +37,7 @@ const EventsBigLayout = () => {
         </div>
       </div>
       <div className="col-span-2 grid grid-cols-2 grid-rows-1 gap-4 xl:gap-8">
-        <div className="col-span-2 bg-[#171717] p-6 text-center">
+        <div className="col-span-2 rounded-lg bg-[#171717] p-6 text-center">
           <div className="my-4 space-y-4">
             <p className="text-3xl font-bold uppercase text-white">
               nft nyc&apos;23

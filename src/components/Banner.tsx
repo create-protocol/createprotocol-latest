@@ -6,7 +6,7 @@ const Banner = () => {
         alt="background"
         width={100}
         height={100}
-        className="h-[80vh] w-screen object-cover opacity-60 md:h-screen"
+        className="h-[80vh] w-screen object-cover opacity-30 md:h-screen"
       />
       <div className="absolute left-1/2 top-[40%] flex w-[90%] -translate-x-1/2 -translate-y-1/2 flex-col items-center justify-center gap-8 text-center sm:gap-8">
         <div className="orange-line lg:w-[25rem]"></div>

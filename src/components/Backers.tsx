@@ -38,7 +38,7 @@ const Backers = () => {
           {backers.map((item) => (
             <div
               key={item}
-              className="flex h-[8rem] items-center justify-center rounded-lg border border-gray-800 bg-[#0D0D0E] p-4 lg:h-[10rem] lg:px-8"
+              className="flex h-[8rem] items-center justify-center rounded-lg p-4 lg:h-[10rem] lg:px-8"
             >
               <Image
                 src={item}
@@ -59,7 +59,7 @@ const Backers = () => {
             <div key={item.name} className="flex flex-col items-center px-3">
               <div
                 key={item.name}
-                className="flex h-[20rem] flex-col items-center justify-start border border-gray-800 bg-[#0D0D0E] py-3 text-center"
+                className="flex h-[20rem] flex-col items-center justify-start border border-border-gray bg-[#0D0D0E] py-3 text-center"
               >
                 <Image
                   src={item.image}
@@ -81,7 +81,7 @@ const Backers = () => {
         {advisors.map((item) => (
           <div
             key={item.name}
-            className="flex h-[20rem] flex-col items-center justify-start rounded-xl border border-gray-800 bg-[#0D0D0E] py-3 text-center"
+            className="flex h-[20rem] flex-col items-center justify-start rounded-xl border border-border-gray bg-[#0D0D0E] py-3 text-center"
           >
             <Image
               src={item.image}
