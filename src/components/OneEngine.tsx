@@ -47,14 +47,16 @@ const OneEngine = () => {
           Uniting Diverse Use Cases with a Single Powerhouse
         </p>
       </div>
-      <div className="mx-auto grid w-[90%] grid-cols-2 gap-5 py-6 md:grid-cols-4 lg:grid-cols-8">
+      <div className="mx-auto grid w-[90%] grid-cols-2 gap-6 py-6 md:grid-cols-4 lg:w-3/4 lg:gap-10 lg:py-10 xl:w-3/5 xl:gap-16 xl:py-20">
         {engineData.map((data, index) => (
           <div
             key={index}
-            className="flex flex-col items-center justify-center gap-2"
+            className="flex flex-col items-center justify-center gap-2 rounded-xl bg-[#0D0D0E] bg-opacity-60 p-2 md:gap-4 md:p-4 lg:gap-6"
           >
             <Image src={data.image} alt={data.title} width={100} height={100} />
-            <p className="font-semibold text-gray-300">{data.title}</p>
+            <p className="font-semibold text-gray-300 lg:text-lg">
+              {data.title}
+            </p>
           </div>
         ))}
       </div>
