@@ -1,41 +1,8 @@
+import { engineData } from "@/constants";
 import Image from "next/image";
 import React from "react";
 
 const OneEngine = () => {
-  const engineData = [
-    {
-      image: "/engine/defi.svg",
-      title: "DeFi",
-    },
-    {
-      image: "/engine/metaverse.svg",
-      title: "Metaverse",
-    },
-    {
-      image: "/engine/music.svg",
-      title: "Music",
-    },
-    {
-      image: "/engine/dapps.svg",
-      title: "Dapps",
-    },
-    {
-      image: "/engine/gamefi.svg",
-      title: "GameFi",
-    },
-    {
-      image: "/engine/brand.svg",
-      title: "Brand",
-    },
-    {
-      image: "/engine/marketplace.svg",
-      title: "Marketplace",
-    },
-    {
-      image: "/engine/art.svg",
-      title: "Art",
-    },
-  ];
   return (
     <div className="relative py-12 lg:py-20">
       <div className="mx-auto flex w-[90%] flex-col items-center gap-5 py-4 text-center">

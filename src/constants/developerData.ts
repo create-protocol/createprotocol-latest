@@ -21,3 +21,38 @@ export const developerData = [
     p3: "Open Doors to a World of Endless Possibilities",
   },
 ];
+
+export const engineData = [
+  {
+    image: "/engine/defi.svg",
+    title: "DeFi",
+  },
+  {
+    image: "/engine/metaverse.svg",
+    title: "Metaverse",
+  },
+  {
+    image: "/engine/music.svg",
+    title: "Music",
+  },
+  {
+    image: "/engine/dapps.svg",
+    title: "Dapps",
+  },
+  {
+    image: "/engine/gamefi.svg",
+    title: "GameFi",
+  },
+  {
+    image: "/engine/brand.svg",
+    title: "Brand",
+  },
+  {
+    image: "/engine/marketplace.svg",
+    title: "Marketplace",
+  },
+  {
+    image: "/engine/art.svg",
+    title: "Art",
+  },
+];

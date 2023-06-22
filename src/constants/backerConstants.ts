@@ -49,7 +49,7 @@ export const advisors = [
   {
     image: "/advisors/lalit.png",
     name: "Lalit Mangal",
-    about: "CEO Airmeet",
+    about: "CEO, Airmeet",
   },
   {
     image: "/advisors/peter.png",

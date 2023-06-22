@@ -38,7 +38,7 @@ const Backers = () => {
           {backers.map((item) => (
             <div
               key={item}
-              className="flex h-[8rem] items-center justify-center rounded-lg p-4 lg:h-[10rem] lg:px-8"
+              className="flex h-[8rem] items-center justify-center rounded-lg border border-border-gray p-4 lg:h-[10rem] lg:px-8"
             >
               <Image
                 src={item}

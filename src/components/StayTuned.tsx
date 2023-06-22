@@ -13,9 +13,9 @@ const StayTuned = () => {
           <input
             type="email"
             placeholder="Enter your email"
-            className="w-3/5 border border-white bg-transparent px-5 py-2 text-white lg:w-3/4"
+            className="w-3/5 border border-[#5F5959] bg-transparent px-5 py-2 text-white placeholder:text-[#666] lg:w-3/4 lg:px-6 lg:py-3 lg:text-lg"
           />
-          <button className="border border-white px-5 py-2 uppercase text-white">
+          <button className="border border-[#5F5959] bg-[#FFA28B1A] px-5 py-2 uppercase text-white lg:px-6 lg:py-3 lg:text-lg">
             Submit
           </button>
         </div>
