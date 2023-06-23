@@ -20,7 +20,13 @@ const OneEngine = () => {
             key={index}
             className="flex flex-col items-center justify-center gap-2 rounded-xl bg-[#0D0D0E] bg-opacity-60 p-2 md:gap-4 md:p-4 lg:gap-6"
           >
-            <Image src={data.image} alt={data.title} width={100} height={100} />
+            <Image
+              src={data.image}
+              alt={data.title}
+              width={100}
+              height={100}
+              className="w-16 sm:w-20 md:w-24 xl:w-28"
+            />
             <p className="font-semibold text-gray-300 lg:text-lg">
               {data.title}
             </p>

@@ -4,7 +4,7 @@ import { useState } from "react";
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
   return (
-    <div className="left-1/2 flex -translate-x-1/2 justify-between px-4 py-4 md:absolute md:z-10 md:mt-5 md:w-[90%] md:rounded-md md:bg-[#16161880] md:px-8 md:py-3 xl:px-10 xl:py-4">
+    <div className="flex justify-between px-4 py-4 md:absolute md:left-1/2 md:z-10 md:mt-5 md:w-[90%] md:-translate-x-1/2 md:rounded-md md:bg-[#16161880] md:px-8 md:py-3 xl:px-10 xl:py-4">
       <Image
         src="/create-full-logo.svg"
         alt="logo"
