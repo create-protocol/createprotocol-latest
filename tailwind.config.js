@@ -10,6 +10,9 @@ module.exports = {
       colors: {
         "border-gray": "#212123",
       },
+      screens: {
+        "3xl": "1700px",
+      },
     },
   },
   plugins: [],

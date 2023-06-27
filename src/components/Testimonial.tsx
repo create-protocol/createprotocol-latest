@@ -1,10 +1,9 @@
-import { testimonialsData1, testimonialsData2 } from "@/constants";
+import { testimonialsData } from "@/constants";
 import Image from "next/image";
 import Slider from "react-slick";
 
 const Testimonial = () => {
   const settings = {
-    dots: true,
     infinite: true,
     speed: 500,
     autoplay: true,
@@ -12,6 +11,17 @@ const Testimonial = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
+  };
+  const bigSettings = {
+    infinite: true,
+    speed: 500,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    arrows: true,
+    centerMode: true,
+    centerPadding: "10px",
   };
   return (
     <div className="relative py-12 lg:py-20">
@@ -26,98 +36,101 @@ const Testimonial = () => {
       </div>
       <div className="my-5 w-screen lg:hidden">
         <Slider {...settings}>
-          {testimonialsData1.map((item) => (
+          {testimonialsData.map((item) => (
             <div
               key={item.name}
               className="flex flex-col items-center px-4 sm:px-12"
             >
-              <div className="flex h-[32rem] flex-col items-center gap-2 border border-border-gray bg-[#0D0D0E] p-8 sm:h-[26rem]">
+              <div className="relative mt-10 flex w-full justify-center">
                 <Image
-                  src={item.image}
-                  alt={item.name}
-                  width={120}
-                  height={120}
+                  src="/testimonial/orange-blob-middle.svg"
+                  alt="blob"
+                  height="100"
+                  width="100"
+                  className="absolute -z-10 w-[90%] sm:w-[70%] md:w-[60%]"
                 />
-                <h2 className="text-2xl font-semibold">{item.name}</h2>
-                <p className="text-sm">{item.title}</p>
-                <div className="relative mt-8 border-border-gray bg-black p-5">
-                  <p className="px-6 pt-4 text-center text-gray-400">
-                    {item.text}
-                  </p>
+                <Image
+                  src="/testimonial/black-blob-middle.svg"
+                  alt="blob"
+                  height="100"
+                  width="100"
+                  className="-z-10 w-[92%] sm:w-[72%] md:w-[62%]"
+                />
+                <div className="absolute -mt-10 flex flex-col items-center justify-center gap-2 sm:gap-3">
+                  <Image
+                    src={item.image}
+                    alt={item.name}
+                    width="100"
+                    height="100"
+                    className="w-20"
+                  />
+                  <h2 className="text-lg font-semibold sm:text-xl">
+                    {item.name}
+                  </h2>
+                  <p className="w-3/4 text-center text-sm">{item.title}</p>
                   <Image
                     src="/testimonial/quote.svg"
                     alt="quote"
-                    width={40}
-                    height={40}
-                    className="absolute -top-5 left-1/2 -translate-x-1/2"
+                    width={30}
+                    height={30}
                   />
+                  <p className="w-3/5 text-center text-sm text-gray-300 sm:w-1/2 sm:text-base">
+                    {item.text}
+                  </p>
                 </div>
               </div>
             </div>
           ))}
         </Slider>
       </div>
-      <div className="my-5 w-screen lg:hidden">
-        <Slider {...settings}>
-          {testimonialsData2.map((item) => (
+      <div className="mx-auto hidden w-[90%] lg:block">
+        <Slider {...bigSettings}>
+          {testimonialsData.map((item) => (
             <div
               key={item.name}
-              className="flex flex-col items-center px-4 sm:px-12"
+              className="mt-20 flex flex-col items-center px-4 2xl:px-10 3xl:px-20"
             >
-              <div className="flex h-[32rem] flex-col items-center gap-2 border border-border-gray bg-[#0D0D0E] p-8 sm:h-[26rem]">
+              <div className="relative flex w-full justify-center">
                 <Image
-                  src={item.image}
-                  alt={item.name}
-                  width={120}
-                  height={120}
+                  src="/testimonial/orange-blob-middle.svg"
+                  alt="blob"
+                  height="100"
+                  width="100"
+                  className="absolute -z-10 w-[98%]"
                 />
-                <h2 className="text-2xl font-semibold">{item.name}</h2>
-                <p className="text-sm">{item.title}</p>
-                <div className="relative mt-8 border-border-gray bg-black p-5">
-                  <p className="px-6 pt-4 text-center text-gray-400">
-                    {item.text}
-                  </p>
+                <Image
+                  src="/testimonial/black-blob-middle.svg"
+                  alt="blob"
+                  height="100"
+                  width="100"
+                  className="-z-10 w-full"
+                />
+                <div className="absolute -mt-10 flex flex-col items-center justify-center gap-1 xl:gap-2">
+                  <Image
+                    src={item.image}
+                    alt={item.name}
+                    width="100"
+                    height="100"
+                    className="w-16 xl:w-20"
+                  />
+                  <h2 className="text-lg font-semibold xl:text-xl">
+                    {item.name}
+                  </h2>
+                  <p className="w-3/4 text-center text-sm">{item.title}</p>
                   <Image
                     src="/testimonial/quote.svg"
                     alt="quote"
-                    width={40}
-                    height={40}
-                    className="absolute -top-5 left-1/2 -translate-x-1/2"
+                    width={30}
+                    height={30}
                   />
+                  <p className="w-3/4 text-center text-sm text-gray-300 2xl:text-base">
+                    {item.text}
+                  </p>
                 </div>
               </div>
             </div>
           ))}
         </Slider>
-      </div>
-      {/* create a grid of the data */}
-      <div className="mx-auto hidden w-[90%] grid-cols-2 gap-10 lg:grid xl:grid-cols-3">
-        {[...testimonialsData1, ...testimonialsData2].map((item) => (
-          <div key={item.name} className="flex flex-col items-center">
-            <div className="flex h-full flex-col items-center gap-2 rounded-lg border border-border-gray bg-[#0D0D0E] p-5">
-              <Image
-                src={item.image}
-                alt={item.name}
-                width={120}
-                height={120}
-              />
-              <h2 className="text-2xl font-semibold">{item.name}</h2>
-              <p className="text-sm">{item.title}</p>
-              <div className="relative mt-8 h-full border-border-gray bg-black p-5">
-                <p className="px-6 pt-4 text-center text-gray-400">
-                  {item.text}
-                </p>
-                <Image
-                  src="/testimonial/quote.svg"
-                  alt="quote"
-                  width={40}
-                  height={40}
-                  className="absolute -top-5 left-1/2 -translate-x-1/2"
-                />
-              </div>
-            </div>
-          </div>
-        ))}
       </div>
       <div className="bg-gradient left-1/2 top-1/2 h-[20rem] w-[20rem] -translate-x-1/2 -translate-y-1/2 lg:h-[50rem] lg:w-[50rem]"></div>
       <div className="bg-gradient -top-32 left-1/2 h-[30rem] w-[30rem] -translate-x-1/2 lg:h-[40rem] lg:w-[40rem]"></div>
