@@ -14,6 +14,9 @@ module.exports = {
         "3xl": "1700px",
       },
     },
+    animation: {
+      "typing": "typing 3s steps(18) 1s 1 normal both, blink-caret .75s step-end infinite",
+    },
   },
   plugins: [],
 };

@@ -1,4 +1,26 @@
+import { useEffect, useState } from "react";
+
 const Banner = () => {
+  const text = ['F', 'u', 't', 'u', 'r', 'e', ' ', 'o', 'f', ' ', 'C', 'r', 'e', 'a', 't', 'i', 'o', 'n']
+  const [title, setTitle] = useState('F')
+  const [animationComplete, setAnimationComplete] = useState(false);
+
+  useEffect(() => {
+    let currentIndex = 0;
+    const interval = setInterval(() => {
+      if (currentIndex === (text.length-1)) {
+        setAnimationComplete(true);
+        clearInterval(interval);
+      } else {
+        currentIndex++;
+        setTitle((prevTitle) => prevTitle + text[currentIndex]);
+        console.log(currentIndex, text[currentIndex]);
+      }
+    }, 250); // Adjust the typing speed as needed
+
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <div className="relative h-[80vh] md:h-screen">
       <img
@@ -11,7 +33,7 @@ const Banner = () => {
       <div className="absolute left-1/2 top-[40%] flex w-[90%] -translate-x-1/2 -translate-y-1/2 flex-col items-center justify-center gap-8 text-center sm:gap-8">
         <div className="orange-line lg:w-[25rem]"></div>
         <h2 className="text-4xl font-extrabold sm:text-5xl md:text-7xl xl:text-8xl">
-          Future of Creation
+          <span className={`block animate-typing ${title.length < 2 && 'invisible'}`}>{title}</span>
         </h2>
         <p className="px-5 text-xl">
           The next gen AI Powered Web 3.0 Infra for dApps
