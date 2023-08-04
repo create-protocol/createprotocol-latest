@@ -1,14 +1,15 @@
 import { useEffect, useState } from "react";
 
+const text = "Outpace your Competition with Create Protocol";
+
 const Banner = () => {
-  const text = ['F', 'u', 't', 'u', 'r', 'e', ' ', 'o', 'f', ' ', 'C', 'r', 'e', 'a', 't', 'i', 'o', 'n']
-  const [title, setTitle] = useState('F')
+  const [title, setTitle] = useState("O");
   const [animationComplete, setAnimationComplete] = useState(false);
 
   useEffect(() => {
     let currentIndex = 0;
     const interval = setInterval(() => {
-      if (currentIndex === (text.length-1)) {
+      if (currentIndex === text.length - 1) {
         setAnimationComplete(true);
         clearInterval(interval);
       } else {
@@ -32,11 +33,13 @@ const Banner = () => {
       />
       <div className="absolute left-1/2 top-[40%] flex w-[90%] -translate-x-1/2 -translate-y-1/2 flex-col items-center justify-center gap-8 text-center sm:gap-8">
         <div className="orange-line lg:w-[25rem]"></div>
-        <h2 className="text-4xl font-extrabold sm:text-5xl md:text-7xl xl:text-8xl">
-          <span className={`block animate-typing ${title.length < 2 && 'invisible'}`}>{title}</span>
+        <h2 className="text-4xl font-extrabold sm:text-4xl md:text-5xl lg:w-3/4 xl:w-3/5 xl:text-6xl">
+          <span className={`block animate-typing`}>{title}</span>
         </h2>
-        <p className="px-5 text-xl">
-          The next gen AI Powered Web 3.0 Infra for dApps
+        <p className="px-5 text-xl sm:w-3/4 md:w-1/2">
+          We empower your dApps creation journey with unmatched speed &
+          efficiency through the power of our Ecosystem and Decentralized AI
+          advancement.
         </p>
         <div className="orange-line lg:w-[25rem]"></div>
         <a
