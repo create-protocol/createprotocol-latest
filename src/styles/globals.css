@@ -40,3 +40,21 @@ body {
 .bg-button {
   background: linear-gradient(180deg, #ffffff 0%, #b3b3b8 100%);
 }
+
+.moving-text {
+  animation: moveText 25s linear infinite;
+  &:hover {
+    animation-play-state: paused;
+  }
+}
+
+@keyframes moveText {
+  0% {
+    transform: translateX(
+      -100%
+    ); /* Start from the left edge of the container */
+  }
+  100% {
+    transform: translateX(100%); /* Move to the right edge of the container */
+  }
+}
