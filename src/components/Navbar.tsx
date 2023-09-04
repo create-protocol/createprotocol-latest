@@ -70,7 +70,7 @@ const Navbar = () => {
             href="https://token.createprotocol.org/?ref=cr8xy293tw97"
             target="_blank"
           >
-            <button className="border border-white/60 px-1 py-0.5">
+            <button className="rounded-lg border border-white/60 px-1 py-0.5">
               Click Here
             </button>
           </a>
@@ -83,7 +83,7 @@ const Navbar = () => {
             href="https://token.createprotocol.org/?ref=cr8xy293tw97"
             target="_blank"
           >
-            <button className="border border-white/60 px-1 py-0.5">
+            <button className="rounded-lg border border-white/60 px-1 py-0.5">
               Click Here
             </button>
           </a>
@@ -96,11 +96,50 @@ const Navbar = () => {
             href="https://token.createprotocol.org/?ref=cr8xy293tw97"
             target="_blank"
           >
-            <button className="border border-white/60 px-1 py-0.5">
+            <button className="rounded-lg border border-white/60 px-1 py-0.5">
               Click Here
             </button>
           </a>
           <p>Use code: cr8xy293tw97</p>
+          <p>
+            Private sale is <span className="text-red-500">Live!</span> TGE
+            @TOKEN 2049 Block your tokens
+          </p>
+          <a
+            href="https://token.createprotocol.org/?ref=cr8xy293tw97"
+            target="_blank"
+          >
+            <button className="rounded-lg border border-white/60 px-1 py-0.5">
+              Click Here
+            </button>
+          </a>
+          <p>Use code: cr8xy293tw97</p>
+          <p>
+            Private sale is <span className="text-red-500">Live!</span> TGE
+            @TOKEN 2049 Block your tokens
+          </p>
+          <a
+            href="https://token.createprotocol.org/?ref=cr8xy293tw97"
+            target="_blank"
+          >
+            <button className="rounded-lg border border-white/60 px-1 py-0.5">
+              Click Here
+            </button>
+          </a>
+          <p>Use code: cr8xy293tw97</p>
+          <p>
+            Private sale is <span className="text-red-500">Live!</span> TGE
+            @TOKEN 2049 Block your tokens
+          </p>
+          <a
+            href="https://token.createprotocol.org/?ref=cr8xy293tw97"
+            target="_blank"
+          >
+            <button className="rounded-lg border border-white/60 px-1 py-0.5">
+              Click Here
+            </button>
+          </a>
+          <p className="news-text">Use code: cr8xy293tw97</p>
         </div>
       </div>
     </div>
