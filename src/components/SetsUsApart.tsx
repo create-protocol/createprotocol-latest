@@ -24,7 +24,7 @@ const SetsUsApart = () => {
     ],
   };
   return (
-    <div className="relative py-10 md:py-20 lg:-mt-10 lg:py-5">
+    <div className="relative py-10 md:py-20 lg:mb-24 lg:mt-24 lg:py-5">
       <div className="mb-10 flex flex-col items-center gap-3 md:mb-16 lg:hidden">
         <h2 className="text-2xl">What Sets Us Apart!</h2>
         <div className="orange-line"></div>

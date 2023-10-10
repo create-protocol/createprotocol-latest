@@ -12,9 +12,9 @@ export const advisors = [
     about: "Crypto OG, popularly known as Crypto Godfather (CNBC)",
   },
   {
-    image: "/advisors/abhimanyu.png",
-    name: "Abhimanyu Lamba",
-    about: "International Growth Lead, Canva",
+    image: "/advisors/min-kim.png",
+    name: "Min Kim",
+    about: "Hack VC, Ex-CMO - Hedera, Polygon",
   },
   {
     image: "/advisors/michael-onghai.png",
@@ -37,9 +37,9 @@ export const advisors = [
     about: "Co-founder, Lumenci",
   },
   {
-    image: "/advisors/min-kim.png",
-    name: "Min Kim",
-    about: "Hack VC, Ex-CMO - Hedera, Polygon",
+    image: "/advisors/abhimanyu.png",
+    name: "Abhimanyu Lamba",
+    about: "International Growth Lead, Canva",
   },
   {
     image: "/advisors/bibin.png",

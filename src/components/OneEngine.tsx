@@ -25,7 +25,7 @@ const OneEngine = () => {
               alt={data.title}
               width={100}
               height={100}
-              className="w-16 sm:w-20 md:w-24 xl:w-28"
+              className="md:w-18 xl:w-22 w-10 sm:w-14"
             />
             <p className="font-semibold text-gray-300 lg:text-lg">
               {data.title}

@@ -11,7 +11,7 @@ const Navbar = () => {
           alt="logo"
           width={200}
           height={100}
-          className="lg:w-[14rem]"
+          className="md:w-[14rem]"
         />
         <Image
           src={navbarOpen ? "/close-icon.svg" : "/hamburger-icon.svg"}
@@ -23,9 +23,9 @@ const Navbar = () => {
           }`}
           onClick={() => setNavbarOpen(!navbarOpen)}
         />
-        <div className="hidden gap-8 md:flex md:items-center lg:gap-12">
+        <div className="hidden gap-8 md:flex md:items-center md:gap-12">
           <a href="https://blog.createprotocol.org/" target="_blank">
-            <button className="text-sm text-white underline-offset-2 hover:underline lg:text-base">
+            <button className="text-sm text-white underline-offset-2 hover:underline md:text-base">
               Blogs
             </button>
           </a>
@@ -33,7 +33,7 @@ const Navbar = () => {
             href="https://create-protocol.gitbook.io/create-protocol-whitepaper/"
             target="_blank"
           >
-            <button className="bg-button rounded-full px-4 py-1.5 text-sm font-semibold text-black lg:px-5 lg:py-2 lg:text-base">
+            <button className="bg-button rounded-full px-4 py-1.5 text-sm font-semibold text-black md:px-5 md:py-2 md:text-base">
               Whitepaper
             </button>
           </a>
@@ -60,86 +60,92 @@ const Navbar = () => {
           </a>
         </div>
       </div>
-      <div className="h-10 w-full overflow-hidden">
+      <div className="px- h-10 w-full overflow-hidden">
         <div className="moving-text absolute top-[4rem] z-[1] flex items-center gap-2 whitespace-nowrap md:top-[6rem]">
           <p>
-            Private sale is <span className="text-red-500">Live!</span> TGE
-            @TOKEN 2049 Block your tokens
+            Public sale is <span className="text-red-500">Live!</span>
+            {/* TGE
+            @TOKEN 2049 Block your tokens */}
           </p>
           <a
             href="https://token.createprotocol.org/?ref=cr8xy293tw97"
             target="_blank"
           >
-            <button className="rounded-lg border border-white/60 px-1 py-0.5">
+            <button className="rounded-md border border-white/60 px-1 py-0.5">
               Click Here
             </button>
           </a>
-          <p>Use code: cr8xy293tw97</p>
+          {/* <p>Use code: cr8xy293tw97</p> */}
           <p>
-            Private sale is <span className="text-red-500">Live!</span> TGE
-            @TOKEN 2049 Block your tokens
+            Public sale is <span className="text-red-500">Live!</span>
+            {/* TGE
+            @TOKEN 2049 Block your tokens */}
           </p>
           <a
             href="https://token.createprotocol.org/?ref=cr8xy293tw97"
             target="_blank"
           >
-            <button className="rounded-lg border border-white/60 px-1 py-0.5">
+            <button className="rounded-md border border-white/60 px-1 py-0.5">
               Click Here
             </button>
           </a>
-          <p>Use code: cr8xy293tw97</p>
+          {/* <p>Use code: cr8xy293tw97</p> */}
           <p>
-            Private sale is <span className="text-red-500">Live!</span> TGE
-            @TOKEN 2049 Block your tokens
+            Public sale is <span className="text-red-500">Live!</span>
+            {/* TGE
+            @TOKEN 2049 Block your tokens */}
           </p>
           <a
             href="https://token.createprotocol.org/?ref=cr8xy293tw97"
             target="_blank"
           >
-            <button className="rounded-lg border border-white/60 px-1 py-0.5">
+            <button className="rounded-md border border-white/60 px-1 py-0.5">
               Click Here
             </button>
           </a>
-          <p>Use code: cr8xy293tw97</p>
+          {/* <p>Use code: cr8xy293tw97</p> */}
           <p>
-            Private sale is <span className="text-red-500">Live!</span> TGE
-            @TOKEN 2049 Block your tokens
+            Public sale is <span className="text-red-500">Live!</span>
+            {/* TGE
+            @TOKEN 2049 Block your tokens */}
           </p>
           <a
             href="https://token.createprotocol.org/?ref=cr8xy293tw97"
             target="_blank"
           >
-            <button className="rounded-lg border border-white/60 px-1 py-0.5">
+            <button className="rounded-md border border-white/60 px-1 py-0.5">
               Click Here
             </button>
           </a>
-          <p>Use code: cr8xy293tw97</p>
+          {/* <p>Use code: cr8xy293tw97</p> */}
           <p>
-            Private sale is <span className="text-red-500">Live!</span> TGE
-            @TOKEN 2049 Block your tokens
+            Public sale is <span className="text-red-500">Live!</span>
+            {/* TGE
+            @TOKEN 2049 Block your tokens */}
           </p>
           <a
             href="https://token.createprotocol.org/?ref=cr8xy293tw97"
             target="_blank"
           >
-            <button className="rounded-lg border border-white/60 px-1 py-0.5">
+            <button className="rounded-md border border-white/60 px-1 py-0.5">
               Click Here
             </button>
           </a>
-          <p>Use code: cr8xy293tw97</p>
+          {/* <p>Use code: cr8xy293tw97</p> */}
           <p>
-            Private sale is <span className="text-red-500">Live!</span> TGE
-            @TOKEN 2049 Block your tokens
+            Public sale is <span className="text-red-500">Live!</span>
+            {/* TGE
+            @TOKEN 2049 Block your tokens */}
           </p>
           <a
             href="https://token.createprotocol.org/?ref=cr8xy293tw97"
             target="_blank"
           >
-            <button className="rounded-lg border border-white/60 px-1 py-0.5">
+            <button className="rounded-md border border-white/60 px-1 py-0.5">
               Click Here
             </button>
           </a>
-          <p className="news-text">Use code: cr8xy293tw97</p>
+          {/* <p className="news-text">Use code: cr8xy293tw97</p> */}
         </div>
       </div>
     </div>
