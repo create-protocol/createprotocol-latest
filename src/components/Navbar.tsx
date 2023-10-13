@@ -29,6 +29,11 @@ const Navbar = () => {
               Blogs
             </button>
           </a>
+          <a href="https://createprotocol.gitbook.io/untitled/" target="_blank">
+            <button className="text-sm text-white underline-offset-2 hover:underline md:text-base">
+              Tokenomics
+            </button>
+          </a>
           <a
             href="https://create-protocol.gitbook.io/create-protocol-whitepaper/"
             target="_blank"
@@ -48,6 +53,11 @@ const Navbar = () => {
           <a href="https://blog.createprotocol.org/" target="_blank">
             <button className="text-white underline-offset-2 hover:underline">
               Blogs
+            </button>
+          </a>
+          <a href="https://createprotocol.gitbook.io/untitled/" target="_blank">
+            <button className="text-sm text-white underline-offset-2 hover:underline md:text-base">
+              Tokenomics
             </button>
           </a>
           <a
