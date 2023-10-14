@@ -43,7 +43,7 @@ const Product = () => {
             height={100}
             className="mx-auto w-3/4 sm:w-1/2 md:w-1/3 lg:hidden"
           /> */}
-          <p className="mx-auto w-3/4 text-justify md:text-lg lg:mx-0 lg:w-4/5 lg:text-xl">
+          <p className="mx-auto w-3/4 text-justify md:text-lg lg:mx-0 lg:w-[90%] lg:text-xl">
             Master Dashboard powered by decentralised AI for Creators and Brands
             who wants to gain competitive edge over others through the most
             advanced & efficient NFT features. An average creator on Creator
@@ -56,7 +56,7 @@ const Product = () => {
             </button>
           </a>
         </div>
-        <div className="hidden  flex-col lg:flex lg:w-1/2">
+        <div className="hidden flex-col items-start lg:flex lg:w-1/2">
           <video
             autoPlay
             loop
@@ -64,7 +64,7 @@ const Product = () => {
             src="/appVideo.mp4"
             width={100}
             height={100}
-            className="w-full object-cover"
+            className="w-[100%]"
           />
           {/* <img
             src="/laptop/laptop1.png"
