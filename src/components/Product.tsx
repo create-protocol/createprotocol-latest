@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Developers from "./Developers";
 import OneEngine from "./OneEngine";
 
@@ -28,13 +27,22 @@ const Product = () => {
             </h2>
             <div className="orange-line lg:w-[18rem]"></div>
           </div>
-          <Image
+          <video
+            autoPlay
+            loop
+            muted
+            src="/appvideo.mp4"
+            width={100}
+            height={100}
+            className="mx-auto w-3/4 sm:w-1/2 md:w-1/3 lg:hidden"
+          />
+          {/* <Image
             src="/laptop-mobile-image.png"
             alt="product"
             width={100}
             height={100}
             className="mx-auto w-3/4 sm:w-1/2 md:w-1/3 lg:hidden"
-          />
+          /> */}
           <p className="mx-auto w-3/4 text-justify md:text-lg lg:mx-0 lg:w-4/5 lg:text-xl">
             Master Dashboard powered by decentralised AI for Creators and Brands
             who wants to gain competitive edge over others through the most
@@ -48,8 +56,17 @@ const Product = () => {
             </button>
           </a>
         </div>
-        <div className="hidden scale-75 flex-col gap-3 lg:flex lg:w-1/2">
-          <Image
+        <div className="hidden  flex-col lg:flex lg:w-1/2">
+          <video
+            autoPlay
+            loop
+            muted
+            src="/appVideo.mp4"
+            width={100}
+            height={100}
+            className="w-full object-cover"
+          />
+          {/* <img
             src="/laptop/laptop1.png"
             alt="product"
             width={100}
@@ -71,7 +88,7 @@ const Product = () => {
               height={100}
               className="w-1/2"
             />
-          </div>
+          </div> */}
         </div>
       </div>
       <Developers />
@@ -96,17 +113,16 @@ const Product = () => {
             across multiple countries.
           </p>
           <p className="ml-auto mr-0 w-3/4 text-gray-300 lg:text-lg lg:font-semibold">
-            Be part of a diverse and supportive community of creators
+            Be pardiverse and supportive community of creators
           </p>
           <p className="ml-auto mr-0 w-3/4 text-gray-300 lg:text-lg lg:font-semibold">
-            Connect with inspiring individuals and grow together in our
-            community
+            Connect with inspidividuals and grow together in our community
           </p>
         </div>
         <div className="bg-gradient bottom-10 left-1/2 h-[30rem] w-[30rem] -translate-x-1/2 lg:-right-[20rem] lg:left-auto lg:h-[50rem] lg:w-[50rem] lg:translate-x-0 "></div>
-        <div className="bg-gradient -top-32 left-1/2 h-[30rem] w-[30rem] -translate-x-1/2 lg:-left-[15rem] lg:h-[40rem] lg:w-[40rem] lg:translate-x-0"></div>
+        {/* <div className="bg-gradient -top-32 left-1/2 h-[30rem] w-[30rem] -translate-x-1/2 lg:-left-[15rem] lg:h-[40rem] lg:w-[40rem] lg:translate-x-0"></div> */}
       </div>
-      <div className="bg-gradient bottom-10 left-1/2 h-[30rem] w-[30rem] -translate-x-1/2 lg:-right-20 lg:left-auto lg:top-56 lg:h-[50rem] lg:w-[50rem] lg:translate-x-0"></div>
+      {/* <div className="bg-gradient bottom-10 left-1/2 h-[30rem] w-[30rem] -translate-x-1/2 lg:-right-20 lg:left-auto lg:top-56 lg:h-[50rem] lg:w-[50rem] lg:translate-x-0"></div> */}
       <div className="bg-gradient -top-32 left-1/2 h-[30rem] w-[30rem] -translate-x-1/2 lg:-left-56 lg:h-[50rem] lg:w-[50rem] lg:translate-x-0"></div>
     </div>
   );

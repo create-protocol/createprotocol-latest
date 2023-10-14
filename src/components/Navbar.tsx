@@ -141,7 +141,59 @@ const Navbar = () => {
               Click Here
             </button>
           </a>
+          <p>
+            Public sale is <span className="text-red-500">Live!</span>
+            {/* TGE
+            @TOKEN 2049 Block your tokens */}
+          </p>
+          <a
+            href="https://token.createprotocol.org/?ref=cr8xy293tw97"
+            target="_blank"
+          >
+            <button className="rounded-md border border-white/60 px-1 py-0.5">
+              Click Here
+            </button>
+          </a>
+          <p>
+            Public sale is <span className="text-red-500">Live!</span>
+            {/* TGE
+            @TOKEN 2049 Block your tokens */}
+          </p>
+          <a
+            href="https://token.createprotocol.org/?ref=cr8xy293tw97"
+            target="_blank"
+          >
+            <button className="rounded-md border border-white/60 px-1 py-0.5">
+              Click Here
+            </button>
+          </a>
           {/* <p>Use code: cr8xy293tw97</p> */}
+          <p>
+            Public sale is <span className="text-red-500">Live!</span>
+            {/* TGE
+            @TOKEN 2049 Block your tokens */}
+          </p>
+          <a
+            href="https://token.createprotocol.org/?ref=cr8xy293tw97"
+            target="_blank"
+          >
+            <button className="rounded-md border border-white/60 px-1 py-0.5">
+              Click Here
+            </button>
+          </a>
+          <p>
+            Public sale is <span className="text-red-500">Live!</span>
+            {/* TGE
+            @TOKEN 2049 Block your tokens */}
+          </p>
+          <a
+            href="https://token.createprotocol.org/?ref=cr8xy293tw97"
+            target="_blank"
+          >
+            <button className="rounded-md border border-white/60 px-1 py-0.5">
+              Click Here
+            </button>
+          </a>
           <p>
             Public sale is <span className="text-red-500">Live!</span>
             {/* TGE
