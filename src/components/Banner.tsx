@@ -27,7 +27,7 @@ const Banner = () => {
         src="/background.mp4"
         width={100}
         height={100}
-        className="h-[80vh] w-screen object-cover opacity-30 md:h-screen"
+        className="h-[vh] w-screen object-cover  md:h-screen"
         autoPlay
         muted
         loop

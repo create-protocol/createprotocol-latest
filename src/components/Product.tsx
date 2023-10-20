@@ -113,10 +113,10 @@ const Product = () => {
             across multiple countries.
           </p>
           <p className="ml-auto mr-0 w-3/4 text-gray-300 lg:text-lg lg:font-semibold">
-            Be pardiverse and supportive community of creators
+            Be inspired and supportive community of creators
           </p>
           <p className="ml-auto mr-0 w-3/4 text-gray-300 lg:text-lg lg:font-semibold">
-            Connect with inspidividuals and grow together in our community
+            Connect with individuals and grow together in our community
           </p>
         </div>
         <div className="bg-gradient bottom-10 left-1/2 h-[30rem] w-[30rem] -translate-x-1/2 lg:-right-[20rem] lg:left-auto lg:h-[50rem] lg:w-[50rem] lg:translate-x-0 "></div>
