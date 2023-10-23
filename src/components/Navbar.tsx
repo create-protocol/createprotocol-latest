@@ -73,12 +73,13 @@ const Navbar = () => {
       <div className="px- h-10 w-full overflow-hidden">
         <div className="moving-text absolute top-[4rem] z-[1] flex items-center gap-2 whitespace-nowrap md:top-[6rem]">
           <p>
-            Public sale is <span className="text-red-500">Live!</span>
+            Community Round is <span className="text-red-500">Live</span> on
+            Bounce Launchpad
             {/* TGE
             @TOKEN 2049 Block your tokens */}
           </p>
           <a
-            href="https://token.createprotocol.org/?ref=cr8xy293tw97"
+            href="https://app.bounce.finance/launchpad/create_protocol"
             target="_blank"
           >
             <button className="rounded-md border border-white/60 px-1 py-0.5">
@@ -87,12 +88,13 @@ const Navbar = () => {
           </a>
           {/* <p>Use code: cr8xy293tw97</p> */}
           <p>
-            Public sale is <span className="text-red-500">Live!</span>
+            Community Round is <span className="text-red-500">Live</span> on
+            Bounce Launchpad
             {/* TGE
             @TOKEN 2049 Block your tokens */}
           </p>
           <a
-            href="https://token.createprotocol.org/?ref=cr8xy293tw97"
+            href="https://app.bounce.finance/launchpad/create_protocol"
             target="_blank"
           >
             <button className="rounded-md border border-white/60 px-1 py-0.5">
@@ -101,12 +103,13 @@ const Navbar = () => {
           </a>
           {/* <p>Use code: cr8xy293tw97</p> */}
           <p>
-            Public sale is <span className="text-red-500">Live!</span>
+            Community Round is <span className="text-red-500">Live</span> on
+            Bounce Launchpad
             {/* TGE
             @TOKEN 2049 Block your tokens */}
           </p>
           <a
-            href="https://token.createprotocol.org/?ref=cr8xy293tw97"
+            href="https://app.bounce.finance/launchpad/create_protocol"
             target="_blank"
           >
             <button className="rounded-md border border-white/60 px-1 py-0.5">
@@ -115,12 +118,13 @@ const Navbar = () => {
           </a>
           {/* <p>Use code: cr8xy293tw97</p> */}
           <p>
-            Public sale is <span className="text-red-500">Live!</span>
+            Community Round is <span className="text-red-500">Live</span> on
+            Bounce Launchpad
             {/* TGE
             @TOKEN 2049 Block your tokens */}
           </p>
           <a
-            href="https://token.createprotocol.org/?ref=cr8xy293tw97"
+            href="https://app.bounce.finance/launchpad/create_protocol"
             target="_blank"
           >
             <button className="rounded-md border border-white/60 px-1 py-0.5">
@@ -129,12 +133,13 @@ const Navbar = () => {
           </a>
           {/* <p>Use code: cr8xy293tw97</p> */}
           <p>
-            Public sale is <span className="text-red-500">Live!</span>
+            Community Round is <span className="text-red-500">Live</span> on
+            Bounce Launchpad
             {/* TGE
             @TOKEN 2049 Block your tokens */}
           </p>
           <a
-            href="https://token.createprotocol.org/?ref=cr8xy293tw97"
+            href="https://app.bounce.finance/launchpad/create_protocol"
             target="_blank"
           >
             <button className="rounded-md border border-white/60 px-1 py-0.5">
@@ -142,12 +147,13 @@ const Navbar = () => {
             </button>
           </a>
           <p>
-            Public sale is <span className="text-red-500">Live!</span>
+            Community Round is <span className="text-red-500">Live</span> on
+            Bounce Launchpad
             {/* TGE
             @TOKEN 2049 Block your tokens */}
           </p>
           <a
-            href="https://token.createprotocol.org/?ref=cr8xy293tw97"
+            href="https://app.bounce.finance/launchpad/create_protocol"
             target="_blank"
           >
             <button className="rounded-md border border-white/60 px-1 py-0.5">
@@ -155,12 +161,13 @@ const Navbar = () => {
             </button>
           </a>
           <p>
-            Public sale is <span className="text-red-500">Live!</span>
+            Community Round is <span className="text-red-500">Live</span> on
+            Bounce Launchpad
             {/* TGE
             @TOKEN 2049 Block your tokens */}
           </p>
           <a
-            href="https://token.createprotocol.org/?ref=cr8xy293tw97"
+            href="https://app.bounce.finance/launchpad/create_protocol"
             target="_blank"
           >
             <button className="rounded-md border border-white/60 px-1 py-0.5">
@@ -169,12 +176,13 @@ const Navbar = () => {
           </a>
           {/* <p>Use code: cr8xy293tw97</p> */}
           <p>
-            Public sale is <span className="text-red-500">Live!</span>
+            Community Round is <span className="text-red-500">Live</span> on
+            Bounce Launchpad
             {/* TGE
             @TOKEN 2049 Block your tokens */}
           </p>
           <a
-            href="https://token.createprotocol.org/?ref=cr8xy293tw97"
+            href="https://app.bounce.finance/launchpad/create_protocol"
             target="_blank"
           >
             <button className="rounded-md border border-white/60 px-1 py-0.5">
@@ -182,12 +190,13 @@ const Navbar = () => {
             </button>
           </a>
           <p>
-            Public sale is <span className="text-red-500">Live!</span>
+            Community Round is <span className="text-red-500">Live</span> on
+            Bounce Launchpad
             {/* TGE
             @TOKEN 2049 Block your tokens */}
           </p>
           <a
-            href="https://token.createprotocol.org/?ref=cr8xy293tw97"
+            href="https://app.bounce.finance/launchpad/create_protocol"
             target="_blank"
           >
             <button className="rounded-md border border-white/60 px-1 py-0.5">
@@ -195,12 +204,13 @@ const Navbar = () => {
             </button>
           </a>
           <p>
-            Public sale is <span className="text-red-500">Live!</span>
+            Community Round is <span className="text-red-500">Live</span> on
+            Bounce Launchpad
             {/* TGE
             @TOKEN 2049 Block your tokens */}
           </p>
           <a
-            href="https://token.createprotocol.org/?ref=cr8xy293tw97"
+            href="https://app.bounce.finance/launchpad/create_protocol"
             target="_blank"
           >
             <button className="rounded-md border border-white/60 px-1 py-0.5">
