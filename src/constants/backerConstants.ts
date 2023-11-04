@@ -14,7 +14,7 @@ export const advisors = [
   {
     image: "/advisors/min-kim.png",
     name: "Min Kim",
-    about: "Hack VC, Ex-CMO - Hedera, Polygon",
+    about: "Angel Investor, Ex-CMO - Polygon and HBAR",
   },
   {
     image: "/advisors/michael-onghai.png",

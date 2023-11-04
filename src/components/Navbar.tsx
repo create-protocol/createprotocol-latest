@@ -73,8 +73,7 @@ const Navbar = () => {
       <div className="px- h-10 w-full overflow-hidden">
         <div className="moving-text absolute top-[4rem] z-[1] flex items-center gap-2 whitespace-nowrap md:top-[6rem]">
           <p>
-            Community Round is <span className="text-red-500">Live</span> on
-            Bounce Launchpad
+            Private sale is <span className="text-red-500">Live</span>
             {/* TGE
             @TOKEN 2049 Block your tokens */}
           </p>
@@ -88,8 +87,7 @@ const Navbar = () => {
           </a>
           {/* <p>Use code: cr8xy293tw97</p> */}
           <p>
-            Community Round is <span className="text-red-500">Live</span> on
-            Bounce Launchpad
+            Private sale is <span className="text-red-500">Live</span>
             {/* TGE
             @TOKEN 2049 Block your tokens */}
           </p>
@@ -103,8 +101,7 @@ const Navbar = () => {
           </a>
           {/* <p>Use code: cr8xy293tw97</p> */}
           <p>
-            Community Round is <span className="text-red-500">Live</span> on
-            Bounce Launchpad
+            Private sale is <span className="text-red-500">Live</span>
             {/* TGE
             @TOKEN 2049 Block your tokens */}
           </p>
@@ -118,8 +115,7 @@ const Navbar = () => {
           </a>
           {/* <p>Use code: cr8xy293tw97</p> */}
           <p>
-            Community Round is <span className="text-red-500">Live</span> on
-            Bounce Launchpad
+            Private sale is <span className="text-red-500">Live</span>
             {/* TGE
             @TOKEN 2049 Block your tokens */}
           </p>
@@ -133,8 +129,7 @@ const Navbar = () => {
           </a>
           {/* <p>Use code: cr8xy293tw97</p> */}
           <p>
-            Community Round is <span className="text-red-500">Live</span> on
-            Bounce Launchpad
+            Private sale is <span className="text-red-500">Live</span>
             {/* TGE
             @TOKEN 2049 Block your tokens */}
           </p>
@@ -147,8 +142,7 @@ const Navbar = () => {
             </button>
           </a>
           <p>
-            Community Round is <span className="text-red-500">Live</span> on
-            Bounce Launchpad
+            Private sale is <span className="text-red-500">Live</span>
             {/* TGE
             @TOKEN 2049 Block your tokens */}
           </p>
@@ -161,8 +155,7 @@ const Navbar = () => {
             </button>
           </a>
           <p>
-            Community Round is <span className="text-red-500">Live</span> on
-            Bounce Launchpad
+            Private sale is <span className="text-red-500">Live</span>
             {/* TGE
             @TOKEN 2049 Block your tokens */}
           </p>
@@ -176,8 +169,7 @@ const Navbar = () => {
           </a>
           {/* <p>Use code: cr8xy293tw97</p> */}
           <p>
-            Community Round is <span className="text-red-500">Live</span> on
-            Bounce Launchpad
+            Private sale is <span className="text-red-500">Live</span>
             {/* TGE
             @TOKEN 2049 Block your tokens */}
           </p>
@@ -190,8 +182,7 @@ const Navbar = () => {
             </button>
           </a>
           <p>
-            Community Round is <span className="text-red-500">Live</span> on
-            Bounce Launchpad
+            Private sale is <span className="text-red-500">Live</span>
             {/* TGE
             @TOKEN 2049 Block your tokens */}
           </p>
@@ -204,8 +195,7 @@ const Navbar = () => {
             </button>
           </a>
           <p>
-            Community Round is <span className="text-red-500">Live</span> on
-            Bounce Launchpad
+            Private sale is <span className="text-red-500">Live</span>
             {/* TGE
             @TOKEN 2049 Block your tokens */}
           </p>
