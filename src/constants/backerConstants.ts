@@ -24,7 +24,7 @@ export const advisors = [
   {
     image: "/advisors/grant.png",
     name: "Grant Gunderson",
-    about: "Web3 Advisor & Investor, Worked closely with Tim Draper",
+    about: "Web3 Advisor & Investor, Works closely with Tim Draper",
   },
   {
     image: "/advisors/jason.png",
@@ -42,9 +42,9 @@ export const advisors = [
     about: "International Growth Lead, Canva",
   },
   {
-    image: "/advisors/bibin.png",
-    name: "Bibin Babu",
-    about: "CGO, 5ire",
+    image: "/advisors/hueh.png",
+    name: "Hue H. Nguyen",
+    about: "Co-founder - Northwind Ventures Ex- US SEC",
   },
   {
     image: "/advisors/lalit.png",
