@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const text = "Welcome to the realm of Create ";
+const text = "Welcome to the realm of Create";
 
 const Banner = () => {
   const [title, setTitle] = useState("O");
@@ -38,7 +38,7 @@ const Banner = () => {
           <span className={`block animate-typing`}>{title}</span>
         </h2>
         <p className="-mt-6 px-5 sm:w-3/4 lg:w-1/2 lg:text-lg xl:text-xl 2xl:text-2xl">
-          Supercharge and simplify your dApps creation journey with Creative Object Model: AI+Onchain+Offchain Supremacy"
+          Supercharge and simplify your dApps creation journey with Creative Object Model: AI+Onchain+Offchain Supremacy
         </p>
         <div className="orange-line lg:w-[25rem]"></div>
         <a
