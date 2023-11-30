@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 const text =" Welcome to the realm of Creation";
 
 const Banner = () => {
-  const [title, setTitle] = useState("0");
+  const [title, setTitle] = useState("");
   const [animationComplete, setAnimationComplete] = useState(false);
 
   useEffect(() => {
