@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const text = "Outpace Your Competition With Create Protocol";
+const text = " Create With Create Protocol";
 
 const Banner = () => {
   const [title, setTitle] = useState("O");
