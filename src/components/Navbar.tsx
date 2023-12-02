@@ -24,7 +24,7 @@ const Navbar = () => {
           onClick={() => setNavbarOpen(!navbarOpen)}
         />
         <div className="hidden gap-8 md:flex md:items-center md:gap-12">
-          <a href="https://blog.createprotocol.org/" target="_blank">
+          <a href="https://medium.com/@createprotocol" target="_blank">
             <button className="text-sm text-white underline-offset-2 hover:underline md:text-base">
               Blogs
             </button>
